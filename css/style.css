@@ -448,6 +448,10 @@ header .navbar a:hover{
         font-weight: 400;
     }
 
+    .navbar .btn1{
+        margin-left: 34%;
+    }
+
 
     /* ----------footer section-------- */
 
@@ -477,7 +481,7 @@ header .navbar a:hover{
     }
 
     .home .content .btn{
-        margin-left: 25%;
+        margin-left: 27%;
     }
 
     .heading{
@@ -511,4 +515,7 @@ header .navbar a:hover{
         right: 0px;
         top: 60%;
     }
+
+ 
 }
+
