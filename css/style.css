@@ -130,8 +130,8 @@ header .logo span{
 
 header .navbar a{
     margin-left: 2rem;
-    font-size: 2rem;
-    font-weight: 500;
+    font-size: 2.2rem;
+    font-weight: 600;
     color: #333;
 }
 
@@ -359,6 +359,7 @@ header .navbar a:hover{
     color:#666;
     padding: .7rem 0;
     text-align: center;
+    font-weight: 500;
 }
 
 .footer .box-container .box a{
@@ -367,6 +368,7 @@ header .navbar a:hover{
     color:rgb(85, 81, 81);
     padding: .7rem 0;
     text-align: center;
+    font-weight: 700;
 
 }
 
