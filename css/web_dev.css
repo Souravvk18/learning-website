@@ -20,3 +20,24 @@
     margin-bottom: 5rem;
 
 }
+
+
+@media (max-width:768px){
+
+
+    .python h1{
+        font-size: 23px;
+        margin: 10px;
+    }
+
+    .python iframe{
+        height: 230px;
+        width: 280px;
+        margin: 5px;
+    }
+
+    .tube{
+        padding-left: 7px;
+        align-items: center;
+    }
+}

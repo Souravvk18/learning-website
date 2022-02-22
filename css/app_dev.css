@@ -1,0 +1,43 @@
+.python h1{
+    font-size: 28px;
+    text-align: center;
+    margin: 20px;
+}
+
+.python iframe{
+    height: 300px;
+    width: 400px;
+    padding: 5px;
+    align-items: center;
+    
+}
+
+.tube {
+    /* display: flex;
+    flex-wrap: wrap; */
+    gap: 20px;
+    padding-left: 7.5rem;
+    margin-bottom: 5rem;
+
+}
+
+
+@media (max-width:768px){
+
+
+    .python h1{
+        font-size: 23px;
+        margin: 10px;
+    }
+
+    .python iframe{
+        height: 230px;
+        width: 280px;
+        margin: 5px;
+    }
+
+    .tube{
+        padding-left: 7px;
+        align-items: center;
+    }
+}
