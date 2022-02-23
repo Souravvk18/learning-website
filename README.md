@@ -1,12 +1,18 @@
 # BUIE-Learning  [![Netlify Status](https://api.netlify.com/api/v1/badges/9dc4c89d-6e55-42b0-903e-e199e00cdf77/deploy-status)](https://app.netlify.com/sites/buie-learning/deploys)
 #
 # Virtual Learning Is A Better Way Of Learning
-E-Learning Is A Learning Experience That Is Enhanced Through Utilizing Computers And Internet Both Outside And Inside The Facilities Of The Educational Organization.
+E-Learning Is A Learning Experience That Is Enhanced Through Utilizing Computers And 
+Internet Both Outside And Inside The Facilities Of The Educational Organization. The 
+instruction most commonly takes place in an online environment. The teaching activities
+are carried out online whereby the teacher and learners are physically separated (in terms of place, time, or both).
 #
 # Popular Courses
+
 # 01. Website Development
 #
-Web Development Is The Work Involved In Developing A Website For The Internet.
+Web development is the work involved in developing a website for the Internet or
+an intranet. Web development can range from developing a simple single static page of 
+plain text to complex web applications, electronic businesses, and social network services.
 Every Web Developer Must Have A Basic Understanding Of HTML, CSS, And JavaScript.
 #
 - HTML Tutorials
@@ -63,4 +69,5 @@ Some Programming Languages Are JavaScript, Python, Java And C++.
 https://souravvk18.github.io/learning-website/
 # Website Link 02:
 https://kuntalojha.github.io/learning-website/
-
+# Website Link 03:
+https://suman-das-buie.github.io/learning-website/
