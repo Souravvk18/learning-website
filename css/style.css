@@ -327,8 +327,9 @@ header .navbar a:hover{
 
 .course .box p{
     color: #666;
-    font-size: 1.7rem;
+    font-size: 1.6rem;
     padding: .5rem 0;
+    text-align: justify;
 }
 
 
