@@ -32,8 +32,9 @@
 
     .python iframe{
         height: 230px;
-        width: 280px;
-        margin: 5px;
+        width: 300px;
+        margin-left: 5px;
+        margin-bottom: 15px;
     }
 
     .tube{
