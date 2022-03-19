@@ -13,7 +13,7 @@
     --medium-dark-shade-of-gray: #666;
     --box-shadow: rgba(0,0,0,.2);
     --border-bottom: rgba(0,0,0,.1);
-    --box-shadow1: #7ceffb;
+    --box-shadow1: #7ceefbcc;
     --matterhorn: #555151;
 }
 
@@ -325,6 +325,7 @@ header .navbar a:hover{
     border-radius: .5rem;
     border: .2rem solid var(--border-bottom);
     padding: 1rem;
+    margin: 1rem;
 }
 
 .course .box img{
