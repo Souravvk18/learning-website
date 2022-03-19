@@ -269,7 +269,7 @@ header .navbar a:hover{
 /* C.V vai Tui ai gulo change kar aktu */
 
 .slider .slide-container:nth-child(1) .slide{
-    background: linear-gradient(90deg, #f9f9f9 70%, #ffff99 30.1%;
+    background: linear-gradient(90deg, #f9f9f9 70%, #ffff99 30.1%);
 }
 .slider .slide-container:nth-child(2) .slide{
     background: linear-gradient(90deg, #f9f9f9 70%, #ff9090 30.1%);
