@@ -1,11 +1,19 @@
-
+:root{
+  --salmon: #ff7d7d;
+  --medium-dark-shade-of-gray: #666;
+  --white: #fff;
+  --salmon1: #fc7a7a;
+  --black: #111;
+  --razzmatazz: #ff0157;
+  --davy-grey: #555;
+}
 /* ---------about---------- */
 
 .subtitle{
     font-size: 35px;
     text-align: center;
     margin: 15px;
-   
+
 }
 
 .about{
@@ -32,14 +40,14 @@
 .about .image img{
     width: 80%;
     margin-left: 25px;
-    box-shadow: 0 15px 50px rgba(252, 124, 124, 0.2);
-    
+    box-shadow: 0 15px 50px var(--salmon);
+
 }
 
 .about .content p{
     padding: .5rem 0;
     font-size: 16px;
-    color: #666;
+    color: var( --medium-dark-shade-of-gray);
     text-align: center;
 }
 
@@ -68,25 +76,25 @@
 
 .contact{
     background-size: cover;
-    background: rgb(255, 255, 255);
+    background: var(--white);
     margin-bottom: 50px;
 }
 
 
  .contact .contactForm{
     padding: 70px 50px;
-    background: #fff;
-    box-shadow: 0 15px 50px rgba(252, 124, 124, 0.4);
+    background: var(--white);
+    box-shadow: 0 15px 50px var(--salmon1);
     max-width: 500px;
     margin-top: 50px;
     justify-content: center;
     align-items: center;
     margin-left: 29%;
-    
+
 }
 
 .contactForm h3{
-    color: #111;
+    color: var(--black);
     font-size: 2.2em;
     margin-bottom: 20px;
     font-weight: bold;
@@ -99,21 +107,21 @@
 
 .contactForm .inputBox input , .contactForm .inputBox textarea{
     width: 100%;
-    border: 1.3px solid #555;
+    border: 1.3px solid var(--davy-grey);
     padding: 10px;
-    color: #111;
+    color: var(--black);
     outline: none;
     font-size: 16px;
     font-weight: 300;
     resize: none;
-}   
+}
 
 .contactForm .inputBox input[type="submit"]
 {
     font-size: 16px;
     font-weight: 500;
-    color: #fff;
-    background: #ff0157;
+    color: var(--white);
+    background: var(--razzmatazz);
     display: inline-block;
     text-transform: uppercase;
     text-decoration: none;
