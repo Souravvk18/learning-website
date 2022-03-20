@@ -9,7 +9,7 @@
     width: 400px;
     padding: 5px;
     align-items: center;
-    
+
 }
 
 .tube {
@@ -45,6 +45,7 @@
 
 :root{
     --pinki:rgb(248, 45, 221);
+    --box-shadow: rgba(0,0,0,.2);
 }
 
 
@@ -60,7 +61,7 @@
     padding: 5px;
     padding-left: 10px;
     align-items: center;
-    
+
 }
 
 .tube {
@@ -87,18 +88,21 @@
 .video p{
     font-size: 1.6rem;
     text-transform: none;
-    
+
 }
 
 .tube .video{
     flex: 1 1 30rem;
     border-radius: .5rem;
-    border: .2rem solid rgba(0,0,0,.1);
+    border: .2rem solid var(--box-shadow);
     padding: 1rem;
     margin: 1rem;
 }
 .tube .video iframe{
     box-shadow: 0 15px 50px rgba(67, 226, 247, 0.589);
+    /* font: left; */
+    height: auto;
+    width: 100%;
 }
 
 @media (max-width:768px){
