@@ -1,5 +1,7 @@
+
 :root{
     --pinki:rgb(248, 45, 221);
+    --box-shadow: rgba(0,0,0,.2);
 }
 
 
@@ -9,21 +11,21 @@
     margin: 20px;
 }
 
-.python iframe{
+/* .python iframe{
     height: 300px;
     width: 380px;
     padding: 5px;
     padding-left: 10px;
     align-items: center;
-    
-}
+
+} */
 
 .tube {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
     /* padding-left: 7.5rem; */
-    margin-bottom: 3rem;
+    margin: 5rem;
 
 }
 
@@ -42,18 +44,22 @@
 .video p{
     font-size: 1.6rem;
     text-transform: none;
-    
+
 }
 
 .tube .video{
     flex: 1 1 30rem;
     border-radius: .5rem;
-    border: .2rem solid rgba(0,0,0,.1);
+    border: .2rem solid var(--box-shadow);
     padding: 1rem;
     margin: 1rem;
+
 }
 .tube .video iframe{
     box-shadow: 0 15px 50px rgba(67, 226, 247, 0.589);
+    /* font: left; */
+    height: auto;
+    width: 100%;
 }
 
 @media (max-width:768px){
@@ -69,6 +75,10 @@
         width: 260px;
         margin-left: 5px;
         margin-bottom: 15px;
+    }
+
+    .tube{
+        margin: auto;
     }
 
 }
