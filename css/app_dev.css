@@ -32,8 +32,9 @@
 /* -----------------youtube title and heading ----------------- */
 
 .video h2{
-    font-size: 2.2rem;
+    font-size: 2rem;
     color: var(--pinki);
+    margin-top: 12px;
 }
 
 .video h3{
@@ -42,7 +43,7 @@
 }
 
 .video p{
-    font-size: 1.6rem;
+    font-size: 1.7rem;
     text-transform: none;
 
 }
