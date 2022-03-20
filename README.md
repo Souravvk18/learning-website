@@ -1,8 +1,8 @@
 # BUIE-Learning  [![Netlify Status](https://api.netlify.com/api/v1/badges/9dc4c89d-6e55-42b0-903e-e199e00cdf77/deploy-status)](https://app.netlify.com/sites/buie-learning/deploys)
 #
 # Virtual Learning Is A Better Way Of Learning
-E-Learning Is A Learning Experience That Is Enhanced Through Utilizing Computers And 
-Internet Both Outside And Inside The Facilities Of The Educational Organization. The 
+E-Learning Is A Learning Experience That Is Enhanced Through Utilizing Computers And
+Internet Both Outside And Inside The Facilities Of The Educational Organization. The
 instruction most commonly takes place in an online environment. The teaching activities
 are carried out online whereby the teacher and learners are physically separated (in terms of place, time, or both).
 #
@@ -11,7 +11,7 @@ are carried out online whereby the teacher and learners are physically separated
 # 01. Website Development
 #
 Web development is the work involved in developing a website for the Internet or
-an intranet. Web development can range from developing a simple single static page of 
+an intranet. Web development can range from developing a simple single static page of
 plain text to complex web applications, electronic businesses, and social network services.
 Every Web Developer Must Have A Basic Understanding Of HTML, CSS, And JavaScript.
 #
@@ -21,7 +21,7 @@ Every Web Developer Must Have A Basic Understanding Of HTML, CSS, And JavaScript
 ## Web development framework 
 - React JS
 - Node JS
-- Diango 
+- Django
 - Angular
 #
 # 02. App Development
@@ -32,7 +32,7 @@ Mobile Applications Are Designed And Built For Different Operating Systems.
 ## Android Development
 - Android Development Using Java
 - Android Development Using Kotlin
-## ISO Development 
+## ISO Development
 - IOS Development Using Swift
 ## IOS & Android Development Using Flutter
 - IOS & Android Development in Flutter
@@ -59,7 +59,7 @@ Some Programming Languages Are JavaScript, Python, Java And C++.
 #
 # [Our Website](https://buie-learning.netlify.app/)
 #
-# Contuct Us
+# Contact Us
 ## Bankura Unnayani Institute of Engineering,
 - PO:- Subhankarnagar, Dist-Bankura, Pin-722146, West Bengal, India.
 - Contact Number	:	9153056388  //  1800313000222(Toll Free)
