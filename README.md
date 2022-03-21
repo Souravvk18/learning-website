@@ -18,7 +18,7 @@ Every Web Developer Must Have A Basic Understanding Of HTML, CSS, And JavaScript
 - `HTML` Tutorials.
 - `CSS` Tutorials.
 - `JavaScript` Tutorials.
-## Web development framework 
+## Web development framework
 - `React JS`
 - `Node JS`
 - `Django`
@@ -63,7 +63,7 @@ Here you can run your program online without downloading any IDE.
 - JavaScript Online `IDE`.
 - R Online `IDE`.
 #
-# 04. Project Work
+# 05. Project Work
 #
 Some Project related videos.
 #
