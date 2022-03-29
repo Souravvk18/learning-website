@@ -11,20 +11,11 @@
     margin: 20px;
 }
 
-/* .python iframe{
-    height: 300px;
-    width: 380px;
-    padding: 5px;
-    padding-left: 10px;
-    align-items: center;
-
-} */
 
 .tube {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-    /* padding-left: 7.5rem; */
     margin: 5rem;
 
 }
@@ -58,7 +49,6 @@
 }
 .tube .video iframe{
     box-shadow: 0 15px 50px rgba(67, 226, 247, 0.589);
-    /* font: left; */
     height: auto;
     width: 100%;
 }
