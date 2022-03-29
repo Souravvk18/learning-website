@@ -83,7 +83,6 @@ section{
     margin-top: 1rem;
     padding: .8rem 3rem;
     border-radius: .5rem;
-    /* background: var(--dark-shade-of-gray); */
     background: var(--gradient);
     color: var(--white);
     font-weight: 700;
@@ -97,7 +96,6 @@ section{
     margin-left: 2rem;
     padding: .8rem 3rem;
     border-radius: .5rem;
-    /* background: rgb(123, 216, 240); */
     background: var(--gradient);
     color: var(--white);
     font-weight: 700;
@@ -307,9 +305,6 @@ header .navbar a:hover{
 .slider #next{
     right: 2.3rem;
 }
-
-
-
 
 
 /* --------------course---------------- */
@@ -532,6 +527,5 @@ header .navbar a:hover{
         right: 0px;
         top: 60%;
     }
-
 
 }
