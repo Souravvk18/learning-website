@@ -88,7 +88,7 @@ Some Project related videos.
 #
 # Contact Us
 ## Bankura Unnayani Institute of Engineering,
-- PO:- Subhankarnagar, Dist-Bankura, Pin-722146, West Bengal, India.
+- PO:- Subhankarnagar , Pohabagan , Bankura - 722146 , West Bengal , INDIA.
 - Contact Number	:	9153056388  //  1800313000222(Toll Free)
 - Email:- buie.bankura@gmail.com // info@buie.ac.in // contactus@buie.ac.in
 #
