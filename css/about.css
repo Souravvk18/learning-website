@@ -1,4 +1,4 @@
-:root{
+:root {
   --salmon: #ff7d7d;
   --medium-dark-shade-of-gray: #666;
   --white: #fff;
@@ -7,150 +7,137 @@
   --razzmatazz: #ff0157;
   --davy-grey: #555;
 }
+
 /* ---------about---------- */
-
-.subtitle{
-    font-size: 35px;
-    text-align: center;
-    margin: 15px;
-
+.subtitle {
+  font-size: 35px;
+  text-align: center;
+  margin: 15px;
 }
 
-.about{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1.5rem;
-    align-items: center;
-    margin-top: 3rem;
-    margin-bottom: 1rem;
+.about {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  align-items: center;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
 }
 
-.about .content{
-    flex: 1 1 40rem;
+.about .content {
+  flex: 1 1 40rem;
 }
 
-.about .image{
-    flex: 1 1 40rem;
+.about .image {
+  flex: 1 1 40rem;
 }
 
-
-.about .image img{
-    width: 80%;
-    margin-left: 25px;
-    box-shadow: 0 15px 50px var(--salmon);
-
+.about .image img {
+  width: 80%;
+  margin-left: 25px;
+  box-shadow: 0 15px 50px var(--salmon);
 }
 
-.about .content p{
-    padding: .5rem 0;
-    font-size: 16px;
-    color: var( --medium-dark-shade-of-gray);
-    text-align: center;
+.about .content p {
+  padding: .5rem 0;
+  font-size: 16px;
+  color: var(--medium-dark-shade-of-gray);
+  text-align: center;
 }
-
-
 
 /* ---------contact---------- */
-
-.title{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+.title {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
-.title h2{
-    font-size: 30px;
+.title h2 {
+  font-size: 30px;
 }
 
-.title p{
-    font-size: 20px;
+.title p {
+  font-size: 20px;
 }
 
-
-
-
-.contact{
-    background-size: cover;
-    background: var(--white);
-    margin-bottom: 50px;
+.contact {
+  background-size: cover;
+  background: var(--white);
+  margin-bottom: 50px;
 }
 
-
- .contact .contactForm{
-    padding: 70px 50px;
-    background: var(--white);
-    box-shadow: 0 15px 50px var(--salmon1);
-    max-width: 500px;
-    margin-top: 50px;
-    justify-content: center;
-    align-items: center;
-    margin-left: 29%;
-
+.contact .contactForm {
+  padding: 70px 50px;
+  background: var(--white);
+  box-shadow: 0 15px 50px var(--salmon1);
+  max-width: 500px;
+  margin-top: 50px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 29%;
 }
 
-.contactForm h3{
-    color: var(--black);
-    font-size: 2.2em;
-    margin-bottom: 20px;
-    font-weight: bold;
-}
-.contactForm .inputBox{
-    position: relative;
-    width: 100%;
-    margin-bottom: 20px;
+.contactForm h3 {
+  color: var(--black);
+  font-size: 2.2em;
+  margin-bottom: 20px;
+  font-weight: bold;
 }
 
-.contactForm .inputBox input , .contactForm .inputBox textarea{
-    width: 100%;
-    border: 1.3px solid var(--davy-grey);
-    padding: 10px;
-    color: var(--black);
-    outline: none;
-    font-size: 16px;
-    font-weight: 300;
-    resize: none;
+.contactForm .inputBox {
+  position: relative;
+  width: 100%;
+  margin-bottom: 20px;
 }
 
-.contactForm .inputBox input[type="submit"]
-{
-    font-size: 16px;
-    font-weight: 500;
-    color: var(--white);
-    background: var(--razzmatazz);
-    display: inline-block;
-    text-transform: uppercase;
-    text-decoration: none;
-    letter-spacing: 2px;
-    transition: 0.5s;
-    max-width: 100px;
-    cursor: pointer;
-    border: none;
+.contactForm .inputBox input, .contactForm .inputBox textarea {
+  width: 100%;
+  border: 1.3px solid var(--davy-grey);
+  padding: 10px;
+  color: var(--black);
+  outline: none;
+  font-size: 16px;
+  font-weight: 300;
+  resize: none;
 }
 
-@media (max-width:768px){
-.contact .contactForm{
+.contactForm .inputBox input[type="submit"] {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--white);
+  background: var(--razzmatazz);
+  display: inline-block;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 2px;
+  transition: 0.5s;
+  max-width: 100px;
+  cursor: pointer;
+  border: none;
+}
+
+@media (max-width:768px) {
+  .contact .contactForm {
     margin-top: 30px;
     padding: 30px;
     margin-left: 0;
-}
+  }
 
-.about .content{
+  .about .content {
     margin-top: 25px;
     margin-bottom: 25px;
-}
+  }
 
-.contact p{
+  .contact p {
     font-size: 17px;
     margin-top: 20px;
     text-align: center;
-}
+  }
 
-.contactForm .inputBox input[type="submit"]
-{
+  .contactForm .inputBox input[type="submit"] {
     font-size: 14px;
     font-weight: 600;
-}
-
+  }
 }
