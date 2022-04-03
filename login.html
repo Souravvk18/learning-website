@@ -41,9 +41,8 @@
           <!------------------------------------------Hear I link php login file ---------------------------------------------------- -->
 
           <form class="login" id="login" action="PHP/login.php" method="get">
-            <input type="text" class="input-box register-box" name="userid" placeholder="user id" required>
+            <input type="text" class="input-box login-box" name="userid" placeholder="user id" required>
             <input type="password" class="input-box login-box" id="password" name="password" placeholder="password" required>
-            <input type="checkbox" class="check-box login-box"> <span>Remember me</span>
             <button type="submit" class="submit-btn login-box">SUBMIT</button>
             <a href="#">forget password</a>
           </form>
@@ -58,17 +57,18 @@
 
           <form class="register" id="register" action="PHP/register.php" method="post">
             <input type="text" class="input-box register-box" name="name" placeholder="your name" required>
-            <input type="text" class="input-box register-box" name="userid" placeholder="user id" required>
-            <input type="number" class="input-box register-box" name="mobilenumber" placeholder="mobile no" required>
-            <input type="email" class="input-box register-box" name="email" placeholder="email id" required>
-
-            <select class="input-box" name="type">
-              <option value="student">Student</option>
-              <option value="teacher">Teacher</option>
+            <select class="input-box" name="gender"  required>
+              <option value="student">Select Gender</option>
+              <option style="color: black; font-weight: 500;" value="male">Male</option>
+              <option style="color: black; font-weight: 500;" value="female">Female</option>
             </select>
+            <input type="number" class="input-box register-box" name="age" placeholder="your age" required>
+            <input type="number" class="input-box register-box" name="mobilenumber" placeholder="mobile no" required>
+            <input type="email" class="input-box register-box" name="email" placeholder="your email" required>
+
+            <input type="text" class="input-box register-box" name="userid" placeholder="user id" required>
             <input type="password" class="input-box register-box" name="password" placeholder="create password" required>
 
-            <!-- <input type="checkbox" class="check-box" > <span>i agree to the terms & conditions</span> -->
             <button type="submit" class="submit-btn register-submit">register</button>
           </form>
           <button type="button" class="btn1" onclick="openLogin()"> i've an account </button>
