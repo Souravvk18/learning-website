@@ -116,6 +116,7 @@ header {
   border-bottom: .1rem solid var(--border-bottom);
   position: relative;
   z-index: 1000;
+  background:#F5EFE5;
 }
 
 header .logo {
