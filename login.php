@@ -1,3 +1,5 @@
+<?php include("index.php");?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -40,7 +42,7 @@
 
           <!------------------------------------------Hear I link php login file ---------------------------------------------------- -->
 
-          <form class="login" id="login" action="PHP/login.php" method="get">
+          <form class="login" id="login" action="" method="get">
             <input type="text" class="input-box login-box" name="userid" placeholder="user id" required>
             <input type="password" class="input-box login-box" id="password" name="password" placeholder="password" required>
             <button type="submit" class="submit-btn login-box">SUBMIT</button>
@@ -55,7 +57,7 @@
 
           <!------------------------------------------Hear I link php Register file ---------------------------------------------------- -->
 
-          <form class="register" id="register" action="PHP/register.php" method="post">
+          <form class="register" id="register" action="" method="post">
             <input type="text" class="input-box register-box" name="name" placeholder="your name" required>
             <select class="input-box register-box" name="gender" required>
               <option value="student">Select Gender</option>

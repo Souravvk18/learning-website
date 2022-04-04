@@ -13,7 +13,7 @@
 
   if($con)
   {
-    // echo "Connection Ok.............";
+    echo "Connection Ok.............";
   }else {
     echo "Connection failed".mysqli_connect_error();
   }
