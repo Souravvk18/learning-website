@@ -1,8 +1,10 @@
+<?php include("index.php");?>
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
+  <!-- <meta charset="UTF-8"> -->
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Join</title>
@@ -40,7 +42,7 @@
 
           <!------------------------------------------Hear I link php login file ---------------------------------------------------- -->
 
-          <form class="login" id="login" action="PHP/login.php" method="get">
+          <form class="login" id="login" action="" method="get">
             <input type="text" class="input-box login-box" name="userid" placeholder="user id" required>
             <input type="password" class="input-box login-box" id="password" name="password" placeholder="password" required>
             <button type="submit" class="submit-btn login-box">SUBMIT</button>
@@ -55,9 +57,9 @@
 
           <!------------------------------------------Hear I link php Register file ---------------------------------------------------- -->
 
-          <form class="register" id="register" action="PHP/register.php" method="post">
+          <form class="register" id="register" action="" method="post">
             <input type="text" class="input-box register-box" name="name" placeholder="your name" required>
-            <select class="input-box register-box" name="gender"  required>
+            <select class="input-box register-box" name="gender" required>
               <option value="student">Select Gender</option>
               <option style="color: black; font-weight: 500;" value="male">Male</option>
               <option style="color: black; font-weight: 500;" value="female">Female</option>
@@ -65,7 +67,6 @@
             <input type="number" class="input-box register-box" name="age" placeholder="your age" required>
             <input type="number" class="input-box register-box" name="mobilenumber" placeholder="mobile no" required>
             <input type="email" class="input-box register-box" name="email" placeholder="your email" required>
-
             <input type="text" class="input-box register-box" name="userid" placeholder="user id" required>
             <input type="password" class="input-box register-box" name="password" placeholder="create password" required>
 
