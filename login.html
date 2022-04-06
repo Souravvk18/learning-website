@@ -1,4 +1,3 @@
-<?php include("index.php");?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -57,18 +56,18 @@
 
           <!------------------------------------------Hear I link php Register file ---------------------------------------------------- -->
 
-          <form class="register" id="register" action="" method="post">
-            <input type="text" class="input-box register-box" name="name" placeholder="your name" required>
-            <select class="input-box register-box" name="gender" required>
+          <form class="register" id="register" action="connect.php" method="post">
+            <input type="text" class="input-box" name="name" placeholder="your name">
+            <select class="input-box" name="gender">
               <option value="student">Select Gender</option>
               <option style="color: black; font-weight: 500;" value="male">Male</option>
               <option style="color: black; font-weight: 500;" value="female">Female</option>
             </select>
-            <input type="number" class="input-box register-box" name="age" placeholder="your age" required>
-            <input type="number" class="input-box register-box" name="mobilenumber" placeholder="mobile no" required>
-            <input type="email" class="input-box register-box" name="email" placeholder="your email" required>
-            <input type="text" class="input-box register-box" name="userid" placeholder="user id" required>
-            <input type="password" class="input-box register-box" name="password" placeholder="create password" required>
+            <input type="number" class="input-box" name="age" placeholder="your age">
+            <input type="number" class="input-box" name="mobilenumber" placeholder="mobile no">
+            <input type="email" class="input-box" name="email" placeholder="your email">
+            <input type="text" class="input-box" name="userid" placeholder="user id" >
+            <input type="password" class="input-box" name="password" placeholder="create password">
 
             <button type="submit" class="submit-btn register-submit">register</button>
           </form>
@@ -104,3 +103,4 @@
 </body>
 
 </html>
+<?php include("index.php");?>
