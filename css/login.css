@@ -28,7 +28,7 @@
   box-shadow: 0 0 30px var(--box-shadow);
   perspective: 1000px;
   /* background: #333; */
-
+  
 }
 
 .inner-box {
@@ -75,8 +75,8 @@
 
 .input-box {
   width: 100%;
-  text-transform:none !important;
   background: transparent;
+  text-transform:none !important;
   border: 1px solid var(--white);
   margin: 6px 0;
   height: 30px;
