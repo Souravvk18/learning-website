@@ -23,9 +23,7 @@
       echo "You habe enter wrong email or password";
     }
   }
-  register
 ?>
-
 
 <!DOCTYPE html>
 <html lang="en">
@@ -60,38 +58,25 @@
   </div>
 
   <div class="contain">
-
     <div class="card">
       <div class="inner-box" id="card">
         <div class="card-front">
           <h2>LOGIN</h2>
-          <!-- -----------------------------------------Mejor Change for Add php -------------------------------------------------- -->
-
-          <!------------------------------------------Hear I link php login file ---------------------------------------------------- -->
 
           <form class="login" id="login" action="login.php" method="POST">
             <input type="text" class="input-box" name="gmail" placeholder="Your Email" required>
             <input type="password" class="input-box" id="password" name="password" placeholder="Password" required>
             <button type="submit" class="submit-btn">SUBMIT</button>
-            <!-- <a href="#">forget password</a> -->
           </form>
+
           <a class="btn1" href="register_page.html"> REGISTER HERE </a>
 
         </div>
-
-        </div>
-
-    <!-- -----------------------------------------Mejor Change for Add php -------------------------------------------------- -->
-
-        </div>
+      </div>
     </div>
+  </div>
 
-<section>
-
-</section>
-
-
-<script src="js/main.js"></script>
+  <script src="js/main.js"></script>
 
 </body>
 
