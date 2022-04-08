@@ -1,3 +1,31 @@
+<?php
+  $host="localhost"  ;
+  $user="root";
+  $password="";
+  $database="buie_learning";
+
+  mysql_connect($host,$user,$password);
+  mysql_select_database($database);
+
+  if(isset($_POST['gmail']))
+  {
+    $gmail=$_POST['gmail'];
+    $password$_POST['password'];
+
+    $sql="select * from buie_learning where email ='".$gmail."'AND password'".$password."' limit 1";
+
+    $result=mysql_query($sql);
+
+    if(mysql_num_row($result)==1){
+      echo "You Have Successfully Login";
+      exit();
+    }else {
+      echo "You habe enter wrong email or password";
+    }
+  }
+  register
+?>
+
 
 <!DOCTYPE html>
 <html lang="en">
