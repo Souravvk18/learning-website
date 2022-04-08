@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
+<!-- required -->
 <head>
   <!-- <meta charset="UTF-8"> -->
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -36,9 +36,27 @@
         <div class="card-front">
           <h2>LOGIN</h2>
 
-          <form class="login" id="login" action="login.php" method="POST">
-            <input type="text" class="input-box" name="gmail" placeholder="Your Email" required>
-            <input type="password" class="input-box" id="password" name="password" placeholder="Password" required>
+          <form class="login" id="login" action="login.php" method="post">
+            <input type="text" class="input-box" name="email" placeholder="Your Email" >
+            <input type="password" class="input-box" id="myInput" name="password" placeholder="Password">
+
+              <div class="left cb">
+                <input type="checkbox" onclick="myFunction()">
+              </div>
+              <div class="right cb">
+                <p >Show Password</p>
+              </div>
+
+            <script type="text/javascript">
+            function myFunction() {
+              var x = document.getElementById("myInput");
+              if (x.type === "password") {
+                x.type = "text";
+              } else {
+                x.type = "password";
+              }
+            }
+            </script>
             <button type="submit" class="submit-btn">SUBMIT</button>
           </form>
 

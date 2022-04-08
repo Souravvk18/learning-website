@@ -158,3 +158,23 @@ button {
   font-size: 14px;
   margin-top: 8px;
 }
+.cb{
+  /* padding-top: 20px 20px 20px 20px; */
+  /* position: inherit; */
+  display:inline-block;
+  width: 50%
+}
+.left {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  /* background-color: red; */
+  margin-left: 50%;
+}
+.right {
+  /* background-color: gold; */
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 15px;
+  text-align: center;
+  margin-left: 30%;
+}
