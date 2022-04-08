@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/login.css">
+  <link rel="stylesheet" href="css/login_register.css">
 </head>
 
 <body>
@@ -35,21 +35,6 @@
 
     <div class="card">
       <div class="inner-box" id="card">
-        <div class="card-front">
-          <h2>LOGIN</h2>
-          <!-- -----------------------------------------Mejor Change for Add php -------------------------------------------------- -->
-
-          <!------------------------------------------Hear I link php login file ---------------------------------------------------- -->
-
-          <form class="login" id="login" action="login.php" method="POST">
-            <input type="text" class="input-box" name="gmail" placeholder="Your Email" required>
-            <input type="password" class="input-box" id="password" name="password" placeholder="Password" required>
-            <button type="submit" class="submit-btn">SUBMIT</button>
-            <a href="#">forget password</a>
-          </form>
-          <button type="button" class="btn1 " onclick="openRegister()"> REGISTER HERE</button>
-
-        </div>
         <div class="card-back">
 
           <h2>REGISTER</h2>
@@ -66,12 +51,12 @@
             <input type="number" class="input-box" name="age" placeholder="Your Age">
             <input type="number" class="input-box" name="mobilenumber" placeholder="Mobile No">
             <input type="email" class="input-box" name="email" placeholder="Your Email">
-            <input type="text" class="input-box" name="userid" placeholder="User Id" >
+            <input type="text" class="input-box" name="userid" placeholder="Create User Id" >
             <input type="password" class="input-box" name="password" placeholder="Create Password">
 
             <button type="submit" class="submit-btn register-submit">register</button>
           </form>
-          <button type="button" class="btn1" onclick="openLogin()"> i've an account </button>
+           <a href="login_page.html" class="btn1"> i've an account </a>
         </div>
       </div>
 
@@ -84,17 +69,6 @@
 
   </section>
 
-  <script>
-    var card = document.getElementById("card");
-
-    function openRegister() {
-      card.style.transform = "rotateY(-180deg)"
-    }
-
-    function openLogin() {
-      card.style.transform = "rotateY(0deg)"
-    }
-  </script>
 
   <!-- ----- custom js file link----- -->
 
