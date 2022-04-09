@@ -64,10 +64,10 @@
 
 .btn1 {
   display: inline-block;
-  margin-top: 3rem;
+  margin-top: 1rem;
   padding: .8rem 3rem;
   border-radius: 3rem;
-  background:rgb(52, 58, 65);;
+  background:var(--gradient);
   /* color: var(--white); */
   border: 1px solid white;
   font-weight: 700;
@@ -75,12 +75,17 @@
   font-size: 1.8rem;
 }
 
+
 .card h2 {
   font-weight: bold;
   font-size: 22px;
   text-align: center;
   margin-bottom: 10px;
   margin-top: -20px;
+}
+
+.card-front h2{
+  padding-bottom: 3rem;
 }
 
 .input-box {
@@ -108,7 +113,7 @@
 
 button {
   width: 100%;
-  background: transparent;
+  background: var(--gradient);
   border: 1px solid var(--white);
   margin: 20px 0 10px;
   height: 40px;
@@ -158,23 +163,20 @@ button {
   font-size: 14px;
   margin-top: 8px;
 }
-.cb{
-  /* padding-top: 20px 20px 20px 20px; */
-  /* position: inherit; */
-  display:inline-block;
-  width: 50%
+
+.checkbox {
+  display: flex;
 }
+
 .left {
-  padding-top: 10px;
+  padding-top: 15px;
   padding-bottom: 10px;
-  /* background-color: red; */
-  margin-left: 50%;
+  margin-left: 7rem;
 }
 .right {
-  /* background-color: gold; */
   padding-top: 10px;
   padding-bottom: 10px;
   font-size: 15px;
   text-align: center;
-  margin-left: 30%;
+  margin-left: 1rem;
 }
