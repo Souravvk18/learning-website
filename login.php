@@ -14,12 +14,21 @@
       if ($stmt_result->num_rows > 0) {
         $data = $stmt_result-> fetch_assoc();
         if($data['password']===$password){
+          echo "<script>
+          alert('Login Successful')
+          </script>";
           echo "<script>location.href='home_page.html'</script>";
         }else {
-          echo "<h1>Invalid Email or Password.</h1>";
+          echo "<script>
+          alert('Invalid Email or Password')
+          </script>";
+          echo "<script>location.href='login_page.html'</script>";
         }
       }else {
-        echo "<h1>Invalid Email or Password.</h1>";
+        echo "<script>
+        alert('Invalid Email or Password')
+        </script>";
+        echo "<script>location.href='login_page.html'</script>";
       }
     }
  ?>

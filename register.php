@@ -16,6 +16,9 @@ $password = $_POST['password'];
     $stmt = $conn->prepare("insert into register(name,gender,age,mobilenumber,email,userid,password)values (?,?,?,?,?,?,?)");
     $stmt->bind_param("ssiisss",$name,$gender,$age,$mobilenumber,$email,$userid,$password);
     $stmt->execute();
+    echo "<script>
+    alert('Registation Successful')
+    </script>";
     echo "<script>location.href='login_page.html'</script>";
     $stmt->close();
     $conn->close();
