@@ -106,6 +106,12 @@ section {
   background: var(--pink);
 }
 
+.btn1:hover {
+  background: var(--pink);
+}
+
+
+
 /* -----------------header--------------- */
 header {
   display: flex;
@@ -138,9 +144,9 @@ header .navbar a {
   color: var(--dark-shade-of-gray);
 }
 
-header .navbar a:hover {
+/* header .navbar a:hover {
   color: var(--pink);
-}
+} */
 
 /* -----------------menu icon for mobile------ */
 #menu {
