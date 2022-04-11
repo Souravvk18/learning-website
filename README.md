@@ -101,3 +101,6 @@ https://suman-das-buie.github.io/learning-website/
 # Website Link 04:
 https://tapas13paramanik.github.io/learning-website/
 #
+
+HOW TO SET UP DETA BASE file
+GO ```C:\xampp\mysql\data``` And Past buie_learning Folder every Thing Work
