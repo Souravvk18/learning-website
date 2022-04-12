@@ -14,9 +14,6 @@
       if ($stmt_result->num_rows > 0) {
         $data = $stmt_result-> fetch_assoc();
         if($data['password']===$password){
-          echo "<script>
-          alert('Login Successful')
-          </script>";
           echo "<script>location.href='home_page.html'</script>";
         }else {
           echo "<script>
