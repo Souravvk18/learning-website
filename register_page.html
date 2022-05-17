@@ -39,17 +39,19 @@
           <!------------------------------------------Hear I link php Register file ---------------------------------------------------- -->
 
           <form class="register" id="register" action="register.php" method="post">
-            <input type="text" class="input-box" name="name" placeholder="Your Name">
+            <input type="text" class="input-box" minlength="4" maxlength="15"  name="fname" placeholder="First Name">
+            <input type="text" class="input-box" minlength="4" maxlength="15" name="lname" placeholder="Last Name">
             <select class="input-box" name="gender">
               <option value="student">Select Gender</option>
               <option style="color: black; font-weight: 500;" value="male">Male</option>
               <option style="color: black; font-weight: 500;" value="female">Female</option>
             </select>
-            <input type="number" class="input-box" name="age" placeholder="Your Age">
-            <input type="number" class="input-box" name="mobilenumber" placeholder="Mobile No">
+            <h3>Date of Birth:</h3>
+                <input type="date" class="input-box" id="birthday" name="birthday">
+            <input type="number" class="input-box" name="mobilenumber" pattern="[6-9]{1}[0-9]{9}" placeholder="Mobile No">
             <input type="email" class="input-box" name="email" placeholder="Your Email">
             <input type="text" class="input-box" name="userid" placeholder="Create User Id" >
-            <input type="password" class="input-box" name="password" placeholder="Create Password">
+            <input type="password" class="input-box" minlength="8" name="password" placeholder="Create Password">
 
             <button type="submit" class="submit-btn register-submit">register</button>
           </form>
