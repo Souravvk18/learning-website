@@ -41,13 +41,19 @@
           <form class="register" id="register" action="register.php" method="post">
             <input type="text" class="input-box" minlength="4" maxlength="15"  name="fname" placeholder="First Name">
             <input type="text" class="input-box" minlength="4" maxlength="15" name="lname" placeholder="Last Name">
+
+            <script>
+              var firstName = "virginia";
+              var lastName = "Chubo";
+              var fullName = firstName + " " + lastName;
+            </script>
+
             <select class="input-box" name="gender">
               <option value="student">Select Gender</option>
               <option style="color: black; font-weight: 500;" value="male">Male</option>
               <option style="color: black; font-weight: 500;" value="female">Female</option>
             </select>
-            <h3>Date of Birth:</h3>
-                <input type="date" class="input-box" id="birthday" name="birthday">
+                <input type="number" class="input-box" name="age" placeholder="Your Age">
             <input type="number" class="input-box" name="mobilenumber" pattern="[6-9]{1}[0-9]{9}" placeholder="Mobile No">
             <input type="email" class="input-box" name="email" placeholder="Your Email">
             <input type="text" class="input-box" name="userid" placeholder="Create User Id" >
