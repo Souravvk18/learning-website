@@ -50,6 +50,7 @@ body {
   background: var(--gradient);
   padding: 3rem 5%;
   padding-bottom: 7rem;
+  /* padding-top: 0; */
 }
 
 section {
@@ -119,8 +120,10 @@ header {
   justify-content: space-between;
   width: 100%;
   padding: 2rem 7%;
+  /* padding-top: 0; */
   border-bottom: .1rem solid var(--border-bottom);
   position: relative;
+  /* position: fixed; */
   z-index: 1000;
   background:#F5EFE5;
 }

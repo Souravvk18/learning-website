@@ -1,6 +1,8 @@
 <?php
 
-$name = $_POST['name'];
+$fname = $_POST['fname'];
+$lname = $_POST['lname'];
+$name = $fname.' '.$lname;
 $gender = $_POST['gender'];
 $age = $_POST['age'];
 $mobilenumber = $_POST['mobilenumber'];
@@ -23,4 +25,5 @@ $password = $_POST['password'];
     $stmt->close();
     $conn->close();
   }
+  
   ?>
