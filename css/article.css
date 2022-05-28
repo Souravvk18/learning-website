@@ -1,0 +1,67 @@
+:root {
+  --violet: #6c5ce7;
+  --pink: #fc4179;
+  --gradient: linear-gradient(90deg, var(--pink), var(--violet));
+}
+
+.text {
+  background-color: #ebebeb;
+}
+.text h1{
+  font-size: 52px;
+  text-align: center;
+  margin: 48px;
+  margin-bottom: 64px;
+  color: var(--pink);
+  word-spacing: 8px;
+  letter-spacing: 4px;
+  font-weight: bold;
+  font-family: font-family: 'Inter', sans-serif;
+  text-transform: uppercase;
+
+}
+
+.text h2{
+  font-size: 30px;
+  color: var(--violet);
+  font-weight: 600;
+  font-family: font-family: 'Inter', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  word-spacing: 4px;
+  margin-top: 64px;
+  margin: 16px;
+  margin-left: 0;
+}
+
+.text p{
+  font-size: 20px;
+  font-weight: 400;
+  font-family: 'Inter', sans-serif;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  line-height: 32px;
+
+  /* line-height: 4rem !important; */
+}
+
+@media (max-width:768px) {
+ .text h1{
+    font-size: 37px;
+    word-spacing: normal;
+ }
+  .text h2{
+    font-size: 24px;
+    font-weight: 550;
+    word-spacing: normal;
+  }
+
+  .text p{
+    font-size: 18px;
+    line-height: 40px;
+    font-weight: 450;
+  }
+
+
+
+}
