@@ -4,8 +4,8 @@
 }
 
 img {
-  height: 400px;
-  width: 400px;
+  height: 300px;
+  width: auto;
   padding: 48px;
   padding-top: 32px;
   padding-bottom: 0;
@@ -23,11 +23,11 @@ figcaption {
   font-weight: bold;
 }
 strong {
-  font-size: 22px;
+  font-size: 18px;
 }
 
 li {
-  font-size: 20px;
+  font-size: 16px;
   margin: 16px;
   margin-left: 48px;
   font-weight: 400;
@@ -39,18 +39,32 @@ ul {
   margin-bottom: 32px;
   padding-bottom: 32px;
 }
+
+pre {
+  margin-left: 16px !important;
+}
+pre code {
+  background-color: #eee;
+  border: 1px solid #999;
+  display: block;
+  padding: 10px;
+  font-size: 18px;
+  text-transform: none;
 }
  .content {
    display: flex;
  }
+
 .text {
-  background-color: #ebebeb;
+  /* background-color: #ebebeb; */
+  /* background-color: #C7CED6; */
+  background-color: #e9ebef;
 }
 
 .text h1{
-  font-size: 52px;
+  font-size: 44px;
   text-align: center;
-  margin: 48px;
+  margin: 32px;
   margin-bottom: 64px;
   color: var(--pink);
   word-spacing: 8px;
@@ -62,7 +76,7 @@ ul {
 }
 
 .text h2{
-  font-size: 30px;
+  font-size: 24px;
   color: var(--violet);
   font-weight: 600;
   font-family: font-family: 'Inter', sans-serif;
@@ -76,7 +90,7 @@ ul {
 }
 
 .text h3{
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 550;
   font-family: font-family: 'Inter', sans-serif;
   text-transform: none;
@@ -89,7 +103,7 @@ ul {
 }
 
 .text p{
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 400;
   font-family: 'Inter', sans-serif;
   letter-spacing: 2px;
@@ -104,7 +118,7 @@ ul {
 {
   img {
     height: 200px;
-    width: 200px;
+    width: auto;
     padding: 24px;
     padding-bottom: 0;
   }
@@ -112,15 +126,20 @@ ul {
     padding-top: 12px;
     padding-left: 24px;
     padding: 24px;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: bold;
   }
 
+  strong {
+    font-size: 16px;
+  }
   li {
     margin-left: 48px;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
-    list-style-type: square;
+    word-spacing: 4px;
+    /* letter-spacing: 2px;
+    /* list-style-type: square; */ */
   }
 
   ul {
@@ -132,25 +151,25 @@ ul {
     display: inline-block;
   }
  .text h1{
-    font-size: 37px;
+    font-size: 30px;
     word-spacing: normal;
  }
   .text h2{
-    font-size: 24px;
-    font-weight: 500;
+    font-size: 20px;
+    font-weight: 600;
     padding-left: 24px;
     word-spacing: normal;
   }
 
   .text h3{
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 550;
     padding-left: 24px;
     word-spacing: normal;
   }
 
   .text p{
-    font-size: 18px;
+    font-size: 16px;
     line-height: 40px;
     font-weight: 400;
     padding: 24px;
