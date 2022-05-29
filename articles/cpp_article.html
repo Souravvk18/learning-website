@@ -104,14 +104,68 @@
       the escape characters like ‘ \n, \t, or \” ‘ of C++ are not processed. Hence, a raw string literal that starts with R”( and ends in )”.<br><br></p>
   <h2>  *Functions in C++--></h2><br><p>A function is a set of statements that take inputs, do some specific computation and produces output.The idea is to put some commonly or repeatedly done task
       together and make a function so that instead of writing the same code again and again for different inputs, we can call the function.<br><br></p>
+      <h2>*function overloading in C++--></h2>
+      <p> With the C++ language, you can overload functions and operators. A function Overloading is a common way of implementing polymorphism. Overloading is the practice of supplying more than one definition for a
+         given function name in the same scope. A user can implement function overloading by defining two or more functions in a class sharing the same name. C++ can distinguish the methods with different method signatures
+         (types and number of arguments in the argument list).<br>
+            <b>Note: You cannot overload function declarations that differ only by return type</b>
+            <h2>*Overriding in C++--></h2>
+            <p> Overriding a method means that replacing a function functionality in child class. To imply overriding functionality we need parent and child classes. In the child class, you define the same method signature
+               as one defined in the parent class.<br>
+             In simple words, when the base class and child class have member functions with exactly the same name, same return type, and same parameter list, then it is said to be function overriding.</p>
+      </p>
     <h2>*Inline Functions in C++--></h2><br><p>C++ provides an inline functions to reduce the function call overhead. Inline function is a function that is expanded in line when it is called. When the
       inline function is called whole code of the inline function gets inserted or substituted at the point of inline function call. This substitution is performed by the C++ compiler at
       compile time. Inline function may increase efficiency if it is small.<br><br></p>
     <h2>*Pointers--></h2><br><p>A pointer is a variable that holds memory address of another variable. A pointer needs to be dereferenced with * operator to access the memory location it points to.</p>
     <br><br>
+    <h2>*Use shared pointer in C++--></h2>
+    <p>A shared_ptr is used to represent shared ownership. It is a type of smart pointer that is designed for scenarios in which the lifetime of the object in memory is managed by more than one owner.
+    </p>
+    <p>Like the unique_ptr, shared_ptr is also defined in the memory header in the C++ Standard Library. Because it follows the concept of shared ownership, after initializing a shared_ptr you can copy it,
+       assign it or pass it by value in function arguments. All the instances point to the same allocated object.</p>
+       <p>The shared_ptr is a “reference counted pointer“. A reference counter is increased whenever a new shared_ptr is added and decreases whenever a shared_ptr goes out of scope or is reset. When the reference
+          count reaches zero, the pointed object is deleted. It means the last remaining owner of the pointer is responsible for destroying the object.</p>
+        <h3>The conclusion of the above statement is that the owned object is destroyed when either of the following happens:</h3>
+          <p>
+            1. The last remaining shared_ptr owning the object is destroyed ( reference count is zero).<br>
+            2. The last remaining shared_ptr owning the object is assigned another pointer via operator= or reset().<br>
+
+          </p><br>
+          <h2>*smart pointers--></h2>
+          <p>A smart pointer is an RAII modeled class designed to handle the dynamically allocated memory. Smart pointers ensure that the allocated memory will be released when the smart pointer object goes out of
+            the scope. In this way, the programmer is free from managing dynamically allocated memory manually.
+          </p><br>
+            <h2>*size of an empty class not zero in C++--></h2>
+            <p>The standard does not allow objects of size 0 since that would make it possible for two distinct objects to have the same memory address. That’s why even empty classes must have a size of (at least) 1 byte.</p>
   <h2>  *References--> </h2><br><p>A reference variable is an alias, that is, another name for an already existing variable. A reference, like a pointer, is also implemented by storing the address of an object.
       A reference can be thought of as a constant pointer (not to be confused with a pointer to a constant value!) with automatic indirection, i.e the compiler will apply the * operator for you.</p>
-
+      <h2>*Some real-world applications where C++ is widely used:-</h2><p>
+CAD Software.<br>
+Game Development.<br>
+GUI-based applications.<br>
+Operating systems.<br>
+Banking applications.<br>
+Advanced computations and graphics.<br>
+Embedded systems.<br>
+Database software.<br>
+      </p>
+      <h2>*constructor--></h2>
+      <p> Class constructors in C++  are special member functions of a class and it initializes the object of a class. It is called by the compiler (automatically) whenever we create new objects of that class. The name of the constructor
+        must be the same as the name of the class and it does not return anything.<br>
+    You should remember that the constructor has a secret argument and this argument is “this pointer” (Address of the object for which it is being called).</p>
+<br>
+<h2>*various OOPs concepts in C++--></h2>
+<p>Below we are mentioning a few fundamental OOP (Object Oriented Programming) concepts:<br>
+class.<br>
+object.<br>
+Inheritance.<br>
+Polymorphism.<br>
+Encapsulation.<br>
+Abstraction.<br>
+</p>
+<h2>*polymorphism in C++--></h2>
+<p>The word polymorphism is a Greek word that means “many-form“. So polymorphism in C++ means, the same entity (method or object) behaves differently in different scenarios. Let’s consider a real-life example of polymorphism. A man behaves like an employee in the office, a father, husband, or son in a home, and a customer in a market. So the same man possesses different behavior in different situations. This is called polymorphism. We can categorize polymorphism into two types. These are Compile-time polymorphism and Run-time polymorphism.</p>
 
 <br><br><p>
 ***FOR MORE INFORMATION  "C" LANGUAGE GO TO THE VIDEO SECTION AND WATCH ANY VIDEO***<br><br></p>
