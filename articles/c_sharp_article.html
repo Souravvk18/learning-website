@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Articals</title>
+
+  <!-- -----font awesome cdn link----- -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <!--*************************Google Font Link ************************************* -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+  <!--*************************Google Font Link ************************************* -->
+  <!-- ----link css file----- -->
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/article.css">
+</head>
+
+<body>
+
+  <div class="container">
+
+    <!-- ---------header-------- -->
+
+    <header>
+      <a href="home_page.html" class="logo">BUI<span>E-learning</span></a>
+      <div id="menu" class="fas fa-bars"></div>
+
+      <nav class="navbar">
+        <a href="../home_page.html">Home</a>
+        <a href="../onlineide/onlineide.html">Online IDE</a>
+        <a href="../app_dev/app_dev.html">App-dev</a>
+        <a href="../web_dev/web_dev.html">Web-dev</a>
+        <a href="../courses.html">Courses</a>
+        <a href="../about.html">About</a>
+        <a href="../index.html" class="btn1">Log Out</a>
+
+      </nav>
+    </header>
+
+    <section class="text">
+      <h1>C Sharp ARTICLE</h1>
+      <h2>Histry of C Sharp</h2>
+      <div class="content">
+        <figure>
+          <img src="..\images\Anders_Hejlsberg.jpg" alt="Anders Hejlsberg image">
+          <figcaption>Anders Hejlsberg</figcaption>
+        </figure>
+        <p>
+          <strong>C Sharp</strong> programming language was designed by <strong> Anders Hejlsberg from Microsoft in 2000 </strong> and was later approved as an international standard by Ecma (ECMA-334) in 2002 and
+          ISO/IEC (ISO/IEC 23270) in 2003. Microsoft introduced <strong> C Sharp </strong> along with .NET Framework and Visual Studio, both of which were closed-source.
+      </div>
+
+      <h2>C Sharp Introduction</h2>
+      <h3>What is C Sharp?</h3>
+      <ul>
+        <li>C Sharp (pronounced "See Sharp") is a modern, object-oriented, and type-safe programming language.</li>
+        <li>C Sharp enables developers to build many types of secure and robust applications that run in .NET.</li>
+        <li>
+          C Sharp has its roots in the C family of languages and will be immediately familiar to C, C++, Java, and JavaScript programmers.</li>
+        <li>C# has added features to support new workloads and emerging software design practices.</li>
+      </ul>
+      <h2>C Sharp Syntax</h2>
+      <ul>
+        <li>we can use classes from the <strong>System </strong> namespace.</li>
+        <li>A blank line. C# ignores white space.</li>
+        <li><strong>namespace </strong> is used to organize your code, and it is a container for classes and other namespaces.</li>
+        <li>The curly braces <strong>{}</strong> marks the beginning and the end of a block of code.</li>
+        <li><strong>class </strong>is a container for data and methods, which brings functionality to your program. Every line of code that runs in C# must be inside a class.</li>
+        <li>Another thing that always appear in a C# program, is the Main method. Any code inside its curly brackets {} will be executed.</li>
+        <li><strong>Console</strong> is a class of the System namespace, which has a WriteLine() method that is used to output/print text.</li>
+        <li><strong>Note : </strong> Every C Sharp statement ends with a semicolon <strong>;</strong></li>
+      </ul>
+      <h3>Example: </h3>
+      <pre>
+        <code>
+          using System;
+
+          namespace HelloWorld
+          {
+            class Program
+           {
+             static void Main(string[] args)
+              {
+                Console.WriteLine("Welcome to BUIE-Learning");
+               }
+            }
+           }
+        </code>
+      </pre>
+      <pre>
+        <code>
+          <strong>Result: </strong>Welcome to BUIE-Learning
+        </code>
+      </pre>
+      <h2>C Sharp Variables</h2>
+      <ul>
+        <li>In <strong>C Sharp</strong>, there are different types of variables, for example:</li>
+        <li><strong>int:</strong> stores integers (whole numbers), without decimals, such as 123 or -123</li>
+        <li><strong>char:</strong> stores single characters, such as 'a' or 'B'.</li>
+        <li><strong>string:</strong> stores text, such as "BUIE Learning".</li>
+        <li><strong>double:</strong> stores floating point numbers, with decimals.</li>
+        <li><strong>bool:</strong> stores values with two states: true or false</li>
+      </ul>
+      <h3>Example:</h3>
+      <pre>
+        <code>
+          <strong>int</strong> num = 5;
+          <strong>double</strong> DoubleNum = 5.99D;
+          <strong>char</strong> C = 'D';
+          <strong>bool</strong> Bool = true;
+          <strong>string</strong> myText = "Welcome";
+         </code>
+    </pre>
+    <h2>Example of C sharp programming</h2>
+    <h3>Add Two Numbers</h3>
+    <pre>
+      <code>
+        static void Main(string[] args)
+        {
+            int num1, num2, sum;
+            Console.WriteLine(" How to Calculate the sum of two numbers:");
+            Console.Write(" Input number 1: ");
+            num1 = Convert.ToInt32(Console.ReadLine());
+            Console.Write(" Input number 2: ");
+            num2 = Convert.ToInt32(Console.ReadLine());
+            sum = num1 + num2;
+            Console.Write(" {0} + {1} = {2}",num1,num2,sum);
+
+            Console.ReadKey();
+        }
+      </code>
+    </pre>
+    <pre>
+      <code>
+        <strong>Result: </strong>
+        How to Calculate the sum of two numbers:
+        Input number 1: 5
+        Input number 2: 10
+        5 + 10 = 15
+      </code>
+    </pre>
+
+    </section>
+
+
+
+    <!-- -----------footer section------------ -->
+
+    <section class="footer">
+
+      <div class="box-container">
+
+        <div class="box">
+          <h3>about</h3>
+          <p>This is a platform where students can learn web development, app development & different programming languages through video tutorials.
+            And student can also run their program using our website through Online IDE.This is free learning website.</p>
+        </div>
+
+        <div class="box">
+          <h3>contact us</h3>
+          <p><i class="fas fa-phone"></i> 843-652-8938 | 973-474-7448 </p>
+          <p><i class="fas fa-envelope"></i> souravbuie17@gmail.com</p>
+          <p><i class="fas fa-map-marker-alt"></i> Subhankarnagar , Pohabagan , Bankura - 722146 , West Bengal , INDIA.</p>
+        </div>
+
+      </div>
+
+      <div class="credit">created with <i class="fas fa-heart"></i> by final year <span>F</span> group</div>
+    </section>
+
+  </div>
+
+
+  <!-- ----- custom js file link----- -->
+
+  <script src="../js/main.js"></script>
+
+</body>
+
+</html>
