@@ -1,0 +1,159 @@
+:root {
+  --violet: #6c5ce7;
+  --pink: #fc4179;
+}
+
+img {
+  height: 400px;
+  width: 400px;
+  padding: 48px;
+  padding-top: 32px;
+  padding-bottom: 0;
+  display: inline-block;
+}
+
+figcaption {
+  padding: 24px;
+  padding-left: 48px;
+  font-size: 22px;
+  font-weight: bold;
+  padding-top: 12px;
+  /* padding-left: 24px; */
+  font-size: 24px;
+  font-weight: bold;
+}
+strong {
+  font-size: 22px;
+}
+
+li {
+  font-size: 20px;
+  margin: 16px;
+  margin-left: 48px;
+  font-weight: 400;
+  list-style-type: square;
+
+}
+
+ul {
+  margin-bottom: 32px;
+  padding-bottom: 32px;
+}
+}
+ .content {
+   display: flex;
+ }
+.text {
+  background-color: #ebebeb;
+}
+
+.text h1{
+  font-size: 52px;
+  text-align: center;
+  margin: 48px;
+  margin-bottom: 64px;
+  color: var(--pink);
+  word-spacing: 8px;
+  letter-spacing: 4px;
+  font-weight: bold;
+  font-family: font-family: 'Inter', sans-serif;
+  text-transform: uppercase;
+
+}
+
+.text h2{
+  font-size: 30px;
+  color: var(--violet);
+  font-weight: 600;
+  font-family: font-family: 'Inter', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  word-spacing: 4px;
+  margin-top: 64px;
+  margin: 16px;
+  padding-left: 24px;
+  margin-left: 0;
+}
+
+.text h3{
+  font-size: 25px;
+  font-weight: 550;
+  font-family: font-family: 'Inter', sans-serif;
+  text-transform: none;
+  letter-spacing: 2px;
+  word-spacing: 4px;
+  margin-top: 64px;
+  margin: 16px;
+  padding-left: 24px;
+  margin-left: 0;
+}
+
+.text p{
+  font-size: 20px;
+  font-weight: 400;
+  font-family: 'Inter', sans-serif;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  line-height: 32px;
+  display: inline-block;
+  padding: 24px;
+  margin-bottom: 32px;
+}
+
+@media (max-width:768px)
+{
+  img {
+    height: 200px;
+    width: 200px;
+    padding: 24px;
+    padding-bottom: 0;
+  }
+  figcaption {
+    padding-top: 12px;
+    padding-left: 24px;
+    padding: 24px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  li {
+    margin-left: 48px;
+    font-size: 18px;
+    font-weight: 400;
+    list-style-type: square;
+  }
+
+  ul {
+    margin-bottom: 32px;
+    padding-bottom: 32px;
+  }
+
+  .content {
+    display: inline-block;
+  }
+ .text h1{
+    font-size: 37px;
+    word-spacing: normal;
+ }
+  .text h2{
+    font-size: 24px;
+    font-weight: 500;
+    padding-left: 24px;
+    word-spacing: normal;
+  }
+
+  .text h3{
+    font-size: 20px;
+    font-weight: 550;
+    padding-left: 24px;
+    word-spacing: normal;
+  }
+
+  .text p{
+    font-size: 18px;
+    line-height: 40px;
+    font-weight: 400;
+    padding: 24px;
+    margin-bottom: 24px;
+  }
+}
