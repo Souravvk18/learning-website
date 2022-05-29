@@ -125,7 +125,9 @@ header {
   position: relative;
   /* position: fixed; */
   z-index: 1000;
-  background:#F5EFE5;
+  /* background:#F5EFE5; */
+  /* background:#C7CED6; */
+  background:#ebebeb;
 }
 
 header .logo {
@@ -342,6 +344,14 @@ header .navbar a {
 }
 
 /* ---------------foooter----------- */
+
+.footer{
+  /* background:#F5EFE5; */
+  background:#e9ebef;
+  /* background:#C7CED6; */
+
+}
+
 .footer .box-container {
   display: flex;
   flex-wrap: wrap;
