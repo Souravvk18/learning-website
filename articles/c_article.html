@@ -40,7 +40,7 @@
     <section class="text">
 
       <h1> C Article</h1>
-      <p> <b> After All These Years, the World is Still Powered by C Programming--></b><br>
+       <h2>After All These Years, the World is Still Powered by C Programming--></h2><br><p>
    Despite the prevalence of higher-level languages, the C programming language continuesto empower the world. There are plenty of reasons to believe that C programming will remainactive for a long time. Here are some reasons that C is unbeatable, and almost mandatory, for certain applications. </p>  <br><br>
 
 <h2>*C Programming Language Still Used--></h2><br>
@@ -78,7 +78,7 @@ to those custom memory locations to communicate with the world. So C’s ability
 --float: It is used to store decimal numbers (numbers with floating point value) with single precision. <br> <br>
 --double: It is used to store decimal numbers (numbers with floating point value) with double precision. </p> <br>
 
-<h2>**Operators in C---></h2> <br>
+<h2>*Operators in C---></h2> <br>
 <p> Operators are the foundation of any programming language. Thus the functionality of C language is incomplete without the use
 of operators. <br> Operators allow us to perform different kinds of operations on operands. In C, operators in Can be categorized in following
 categories:<br><br>
@@ -87,6 +87,87 @@ Relational Operators (==, !=, >, <, >= & <=) Logical Operators (&&, || and !)  <
 Bitwise Operators (&, |, ^, ~, >> and <<). <br>
 Assignment Operators (=, +=, -=, *=, etc) <br>
 Other Operators (conditional, comma, sizeof, address, redirection). </p> <br><br>
+
+<h2>*Local variables in C--></h2>
+<p>The local variable is a variable that is declared within a function, block (within curly braces), or function argument. <br>
+  Consider the below program:-
+<br>
+void test(int x, int y)<br>
+{
+    int a;   <br>
+}
+</p>
+<p>
+  In the above program, a, x and y are local variables. They only accessible within the test function when control comes out
+  from the function then they will destroy automatically.</p>
+<p>
+  If you will create a variable within the function and create the same name variable within the block (inside curly braces) in
+  the same function, then both variables would be different. As soon as the block ends (curly braces) the variable which declared
+  inside the block is destroyed. See the below code:- </p>   <br>
+
+#include stdio.h <br>
+int main(int argc, char *argv[])<br>
+{
+  <br>  int a = 5;<br>
+    {
+        <br>int a = 10;<br>
+        <br>printf("value of a = %d\n",a);<br>
+    }
+  <br>  printf("value of a = %d\n",a);<br>
+    return 0;<br>
+}<br>
+Output:<br>
+   Value of a = 10<br>
+   Value of a = 5 <br><br>
+  <h2>*Static Variable in C--> </h2>
+  <p>
+A static variable preserves its previous value and it is initialized at compilation time when memory is allocated. If we do not initialize
+the static variable, then it’s the responsibility of the compiler to initialize it with zero value.</p>
+<p><b>
+Syntax: static Data_type Variable_name;</b></p>
+
+<p>Let see the below program, in which I have created static variables.</p>
+<b> #include stdio.h <br>
+// Uninitialized global variable stored in BSS<br>
+static int data1;<br>
+//Initialized static variable stored in DS<br>
+static int data2 = 0;<br>
+int main(void)<br>
+{<br>
+    // Uninitialized static variable stored in BSS<br>
+    static int data3;<br>
+    //Initialized static variable stored in DS<br>
+    static int data4 = 0;<br>
+    //Printing the value<br>
+    printf("data1 =  %d\n",data1);<br>
+    printf("data2 =  %d\n",data2);<br>
+    printf("data3 =  %d\n",data3);<br>
+    printf("data4 =  %d\n",data4);<br>
+    return 0;<br>
+}<br>
+Output:<br>
+
+data1 = 0<br>
+data2 = 0<br>
+data3 = 0<br>
+data4 = 0</b><br>
+<h2>*Global Variable in C--></h2>
+<p>Variables which declared outside the function are called global variables. A global variable is not limited to any function or file it can be
+   accessed by any function or outside of the file. If you have not initialized the global variables, then it automatically initialized to 0 at
+   the time of declaration.</p>
+<p>
+See the below program, the data variable is a global variable.</p>
+<br>
+#include stdio.h<br>
+int data; // global variable<br>
+int main()<br>
+{<br>
+    printf("data = %d\n", data);<br>
+    return 0;<br>
+}<br>
+Output:<br>
+
+data = 0<br><br>
 
 <h2>*Arrays in C--></h2><br>
 
