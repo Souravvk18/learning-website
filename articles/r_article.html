@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Articals</title>
+
+  <!-- -----font awesome cdn link----- -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <!--*************************Google Font Link ************************************* -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+  <!--*************************Google Font Link ************************************* -->
+  <!-- ----link css file----- -->
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/article.css">
+</head>
+
+<body>
+
+  <div class="container">
+
+    <!-- ---------header-------- -->
+
+    <header>
+      <a href="home_page.html" class="logo">BUI<span>E-learning</span></a>
+      <div id="menu" class="fas fa-bars"></div>
+
+      <nav class="navbar">
+        <a href="../home_page.html">Home</a>
+        <a href="../onlineide/onlineide.html">Online IDE</a>
+        <a href="../app_dev/app_dev.html">App-dev</a>
+        <a href="../web_dev/web_dev.html">Web-dev</a>
+        <a href="../courses.html">Courses</a>
+        <a href="../about.html">About</a>
+        <a href="../index.html" class="btn1">Log Out</a>
+
+      </nav>
+    </header>
+
+    <section class="text">
+      <h1>R ARTICLE</h1>
+      <h2>Histry of R</h2>
+      <div class="content">
+        <div class="iamge-title">
+          <figure>
+            <img src="../images/R.jpg" alt="Robert Gentleman Ross Ihaka image">
+            <figcaption>Robert Gentleman & Ross Ihaka</figcaption>
+          </figure>
+        </div>
+        <div class="pragraph">
+          <p>
+          <strong>R is a programming language for statistical computing and graphics supported by the R Core Team and
+             the R Foundation for Statistical Computing </strong>. Created by statisticians <strong>Ross Ihaka and Robert Gentleman</strong> , R is
+             used among data miners, bioinformaticians and statisticians for data analysis and developing statistical software.
+             Users have created packages to augment the functions of the R language.
+          </p>
+        </div>
+      </div>
+
+      <h2>R Introduction</h2>
+      <h3>What is R?</h3>
+      <ul>
+        <li>R is a language and environment for statistical computing and graphics.</li>
+        <li>It is a GNU project which is similar to the S language and environment which was developed at Bell Laboratories by John Chambers and colleagues.</li>
+        <li>
+          R can be considered as a different implementation of S. </li>
+        <li>There are some important differences, but much code written for S runs unaltered under R.</li>
+      </ul>
+      <h2>R environment</h2>
+      <h3>R is an integrated suite of software facilities for data manipulation, calculation and graphical display. It includes-</h3>
+      <ul>
+        <li>an effective data handling and storage facility,</li>
+        <li>a large, coherent, integrated collection of intermediate tools for data analysis,</li>
+        <li>graphical facilities for data analysis and display either on-screen or on hardcopy.</li>
+      </ul>
+      <h2>R Syntax</h2>
+      <h3>R Command Prompt</h3>
+      <ul>
+        <li>R command prompt by just typing the following command at your command prompt −</li>
+      </ul>
+      <pre>
+        <code>
+          $ R
+        </code>
+      </pre>
+      <ul>
+        <li>This will launch R interpreter and you will get a prompt > where you can start typing your program as follows −</li>
+      </ul>
+      <pre>
+        <code>
+          <kbd>></kbd> <kbd class="html-tag">myString</kbd> <kbd><-</kbd> <samp class="object-tag">"Hello, World!"</samp>
+          <kbd>></kbd> <kbd class="html-tag">print</kbd> <span>(</span> <samp class="object-tag">myString</samp> <span>)</span>
+          [1]<span class="class-tag"> "Hello, World!"</span>
+        </code>
+      </pre>
+      <ul>
+        <li>R does not support multi-line comments but you can perform a trick which is something as follows −</li>
+      </ul>
+      <pre>
+        <code>
+        <kbd>if<span>(</span>FALSE<span>)</span></kbd> <span>{</span>
+          <samp class="object-tag">This is a demo for multi-line comments and it should be put inside either a
+          single OR double quote"</samp>
+          <span>}</span>
+
+          <kbd>myString</kbd><kbd> <-</kbd> <span class="class-tag">"Hello, World!"</span>
+        <kbd class="html-tag">print</kbd><span>(</span> <samp class="object-tag">myString</samp> <span>)</span>
+        </code>
+      </pre>
+      <h2>R Variables</h2>
+      <h3>Variable Name    ->    Validity  ->         Reason            </h3>
+      <ul>
+        <li>var_name%    ->      Invalid    ->        Has the character '%'. Only dot(.) and underscore allowed.</li>
+        <li>var_name2.   ->       valid       ->    Has letters, numbers, dot and underscore</li>
+        <li>2var_name    ->       invalid     ->    Starts with a number</li>
+      </ul>
+
+    </section>
+
+
+
+    <!-- -----------footer section------------ -->
+
+    <section class="footer">
+
+      <div class="box-container">
+
+        <div class="box">
+          <h3>about</h3>
+          <p>This is a platform where students can learn web development, app development & different programming languages through video tutorials.
+            And student can also run their program using our website through Online IDE.This is free learning website.</p>
+        </div>
+
+        <div class="box">
+          <h3>contact us</h3>
+          <p><i class="fas fa-phone"></i> 843-652-8938 | 973-474-7448 </p>
+          <p><i class="fas fa-envelope"></i> souravbuie17@gmail.com</p>
+          <p><i class="fas fa-map-marker-alt"></i> Subhankarnagar , Pohabagan , Bankura - 722146 , West Bengal , INDIA.</p>
+        </div>
+
+      </div>
+
+      <div class="credit">created with <i class="fas fa-heart"></i> by final year <span>F</span> group</div>
+    </section>
+
+  </div>
+
+
+  <!-- ----- custom js file link----- -->
+
+  <script src="../js/main.js"></script>
+
+</body>
+
+</html>
