@@ -78,6 +78,12 @@ Variable is a name of memory location. There are three types of variables in jav
 -----local variable<br>
 -----instance variable<br>
 -----static variable<br><br></p>
+<h2>*Local Variable Type Inference--></h2>
+<p>Java now features a var keyword similar to Javascript to declare a variable without specifying its type. The stored value of the variable will indicate the
+  variable type. For example, if you have written this line of code, var name = “Name” then the compiler will know that the variable value is a String.<br>
+Var keyword can only be used for declaration of local variables and can not be used for member variable declaration (which is done inside the class body). You
+also need to note that this change still does not make it a dynamically typed language such as Python. However, this feature reduces a lot of lines of code which
+are otherwise required to declare local variables using the Java language.</p>
 <h2>*Data Types in Java--></h2><br><p>boolean data type,byte data type,char data type,short data type,int data type,long data type,float data type,double data type.<br><br>
 <h2>*Operators in Java--></h2><br><p>Operator in Java is a symbol that is used to perform operations. For example: +, -, *, / etc.<br></p>
           <p>There are many types of operators in Java which are given below:Unary Operator,Arithmetic Operator,Shift Operator,Relational Operator,
@@ -115,7 +121,34 @@ String s=new String(ch);<br><br></p>
                                                         <br><br>    }<br><br>
                                                      }</p>
 
-
+<br><h2>*Time-Based Released Versioning--></h2>
+<p>Java has scheduled a new release every six months since JDK 10 release. This approach has received a mix of both
+  positive and negative reviews from the Java community. The update element also increments 1 month after a Feature element.
+  This means that the April 2018 java release is JDK 10.0.1, whereas July 2018 release is JDK 10.0.2 so on and so forth.</p>
+  <h2>*Garbage-Collector Interface --></h2>
+  <p>Garbage Collector interface is another useful and interesting Java 10 feature. It gives a clean garbage collector interface
+   which means that you can now exclude GC from a JDK build. This makes it easy to add a new GC without working on the code base.
+   Read about Java Memory Management to understand how G1 Garbage Collection works and learn the difference between G1 and Concurrent
+   Mark Sweep Garbage Collector.</p>
+   <h2>* Heap Allocation on Alternative Memory Devices--></h2>
+   <p>Heap Allocation on Alternative Memory Devices is another great Java 10 feature. It helps to enable HotSpot VM to allocate Java
+     object heap on an alternative memory device indicated by the user. This feature also makes it possible to allocate lower priority
+     procedures for using the NV-DIMM memory while assisting the higher priority procedures to the DRAM in a multi-JVM environment.</p>
+     <h2>*Root Certificates--></h2>
+<p>
+  Root Certificates is another significant change featured in Java 10. JDK 10 was built in connection with OpenJDK and that’s prominent
+  from this feature, as it offers a default set of root Certification Authority. It also focuses on reducing the difference between OpenJDK
+  and Oracle JDK. Security components such as TLS are default enabled in OpenJDK builds.</p>
+  <h2>*Application class-data sharing--></h2>
+  <p>Class-Data Sharing time was introduced in Java 5 to improve startup times of small java applications. It helped in loading the class metadata
+     so as not to load all of it each time. This shared data cache signified a big improvement in startup times for small applications as the relative
+     core class size was mostly larger in size than the application. In Java 10, this feature is further extended to include the system classloader and
+     the platform classloader. To benefit from that, simply add -XX:+UseAppCDS as a parameter.</p>
+     <h2>*Thread-Local Handshakes--></h2>
+     <p>Thread-Local Handshakes in Java 10 offers an improved VM performance. It enables callback on application threads without the execution of a global
+       VM savepoint. This means that the JVM can now also stop individual threads instead of collective threads whenever required.<br>
+      Small improvements are also done as part of this feature to enhance VM performance. Various memory barriers are removed from JVM with an improved biased
+      locking to stop individual threads for revoking biases.</p>
 <p>
 <br><br>***FOR MORE INFORMATION  "C" LANGUAGE GO TO THE VIDEO SECTION AND WATCH ANY VIDEO***<br><br>
 </p>
