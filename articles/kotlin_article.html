@@ -13,10 +13,6 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap" rel="stylesheet">
   <!--*************************Google Font Link ************************************* -->
   <!-- ----link css file----- -->
   <link rel="stylesheet" href="../css/style.css">
@@ -46,72 +42,86 @@
     </header>
 
     <section class="text">
-      <h1>CSS ARTICLE</h1>
-      <h2>Histry of CSS</h2>
+      <h1>KOTLIN ARTICLE</h1>
+      <h2>Histry of Kotlin</h2>
       <div class="content">
         <div class="iamge-title">
           <figure>
-            <img src="../images/Hakon_Wium_Lie.jpg" alt="Hakon Wium Lie image">
-            <figcaption>Håkon Wium Lie</figcaption>
+            <img src="../images/kotlin-l.png" alt="kotlin image">
+            <figcaption>Developed by JetBrains</figcaption>
           </figure>
         </div>
         <div class="pragraph">
           <p>
-            <strong>CSS (Cascading Style Sheets)</strong> was first proposed by <strong>Håkon Wium Lie on October 10, 1994 </strong> while working with Tim Berners-Lee at CERN and the rest is history. CSS was not the only styling language in
-            development at the time,but the veryelement of cascading and developing sequence is what set it apart from the rest
+            <strong>Kotlin was developed by JetBrains in 2010</strong>. They initially released it under the name Project Kotlin in <strong>July 2011</strong>.
+              They needed a language that was concise, elegant, expressive, and also interoperable with Java, as most of their products
+              were developed in Java, including the Intellij Idea.
           </p>
         </div>
       </div>
 
-      <h2>CSS Introduction</h2>
-      <h3>What is CSS?</h3>
+      <h2>Kotlin Introduction</h2>
+      <h3>What is Kotlin?</h3>
       <ul>
-        <li>CSS stands for Cascading Style Sheets</li>
-        <li>CSS describes how HTML elements are to be displayed on screen, paper, or in other media</li>
-        <li>
-          CSS saves a lot of work. It can control the layout of multiple web pages all at once</li>
-        <li>External stylesheets are stored in CSS files</li>
+        <li>Kotlin is an open-source statically typed programming language that targets the JVM, Android, JavaScript and Native. It’s developed by JetBrains</li>
+        <li>Kotlin is a cross-platform, statically typed, general-purpose programming language with type inference.</li>
       </ul>
-      <h2>CSS Variables</h2>
+      <h2>kotlin Syntax</h2>
+      <h3>Program entry point﻿</h3>
       <ul>
-        <li>The var() function is used to insert the value of a CSS variable.</li>
-        <li>A good way to use CSS variables is when it comes to the colors of your design. Instead of copy and paste the same colors over and over again, you can place them in variables.</li>
+        <li>An entry point of a Kotlin application is the <strong>main</strong> function.</li>
       </ul>
-      <h3>Example</h3>
       <pre>
         <code>
-        <kbd class="html-tag">body</kbd><span>{ </span> <kbd>background-color</kbd>:<samp class="object-tag"> #1e90ff</samp>;<span>}</span>
-
-        <kbd class="html-tag"> h2</kbd><span> {</span> <kbd>border-bottom</kbd>: <samp class="object-tag">2px solid #1e90ff</samp>; <span>}</span>
-
-         .<kbd class="html-tag">container</kbd> <span>{</span>
-          <kbd>color</kbd>: <samp class="object-tag">#1e90ff</samp>;
-          <kbd>background-color</kbd>: <samp class="object-tag">#ffffff</samp>;
-          <kbd>padding</kbd>: <samp class="css-value">15px</samp>;
-          <span>}</span>
-
-          <kbd class="html-tag">button </kbd><span>{</span>
-          <kbd>background-color</kbd>:<samp class="object-tag"> #ffffff</samp>;
-          <kbd>color</kbd>: <samp class="object-tag">#1e90ff</samp>;
-          <kbd>border</kbd>: <samp class="css-value">1px solid</samp> <samp class="object-tag">#1e90ff</samp>;
-          <kbd>padding</kbd>: <samp class="css-value">5px</samp>;
+          <kbd>fun</kbd> main() <span>{</span>
+          println <span>(</span><kbd class="html-tag">"Hello world!"</kbd><span>)</span>
          <span>}</span>
         </code>
       </pre>
-      <h2>CSS Syntax</h2>
+      <h3>Print to the standard output﻿</h3>
+      <ul>
+        <li>print prints its argument to the standard output.</li>
+      </ul>
       <pre>
-        <code >
-          <kbd class="html-tag">p</kbd> <span>{</span>
-          <kbd>color</kbd>: <samp class="css-vlaue">red</samp>;
-          <kbd>text-align</kbd>: <samp class="css-vlaue">center</samp>;
-          <span>}</span>
+        <code>
+          print <span>(</span><kbd class="html-tag">"Hello "</kbd><span>)</span>
+          print <span>(</span><kbd class="html-tag">"world!"</kbd><span>)</span>
         </code>
       </pre>
+      <h2>Variables﻿</h2>
+      <ul>
+        <li>Read-only local variables are defined using the keyword <strong>val</strong>. They can be assigned a value only once.</li>
+      </ul>
+      <pre>
+        <code>
+          <kbd>val</kbd> <var>a</var>: Int = 1  // immediate assignment
+          <kbd>val</kbd> <var>b</var> = 2   // `Int` type is inferred
+          <kbd>val</kbd> <var>c</var>: Int  // Type required when no initializer is provided
+          <var>c</var> = 3       // deferred assignment
+        </code>
+      </pre>
+      <ul>
+        <li>Variables that can be reassigned use the <strong>var</strong> keyword.</li>
+      </ul>
+      <pre>
+        <code>
+          <kbd>var</kbd> <var>x</var> = 5 // `Int` type is inferred
+          <var>x</var> += 1
+        </code>
+      </pre>
+      <ul>
+        <li>You can declare variables at the top level.</li>
+      </ul>
+      <pre>
+        <code>
+          <kbd>val</kbd> <var>PI</var> = 3.14
+          <kbd>var</kbd> <var>x</var> = 0
 
-      <p>
-
-      </p>
-
+          <kbd>fun incrementX()</kbd> <span>{</span>
+          <var>x</var> += 1
+         <span>}</span>
+        </code>
+      </pre>
 
     </section>
 

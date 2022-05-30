@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Articals</title>
+
+  <!-- -----font awesome cdn link----- -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <!--*************************Google Font Link ************************************* -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+  <!--*************************Google Font Link ************************************* -->
+  <!-- ----link css file----- -->
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/article.css">
+</head>
+
+<body>
+
+  <div class="container">
+
+    <!-- ---------header-------- -->
+
+    <header>
+      <a href="home_page.html" class="logo">BUI<span>E-learning</span></a>
+      <div id="menu" class="fas fa-bars"></div>
+
+      <nav class="navbar">
+        <a href="../home_page.html">Home</a>
+        <a href="../onlineide/onlineide.html">Online IDE</a>
+        <a href="../app_dev/app_dev.html">App-dev</a>
+        <a href="../web_dev/web_dev.html">Web-dev</a>
+        <a href="../courses.html">Courses</a>
+        <a href="../about.html">About</a>
+        <a href="../index.html" class="btn1">Log Out</a>
+
+      </nav>
+    </header>
+
+    <section class="text">
+      <h1>PHP ARTICLE</h1>
+      <h2>Histry of PHP</h2>
+      <div class="content">
+        <div class="iamge-title">
+          <figure>
+            <img src="../images/Rasmus-Lerdorf.jpg" alt="Rasmus Lerdorf image">
+            <figcaption>Rasmus Lerdorf</figcaption>
+          </figure>
+        </div>
+        <div class="pragraph">
+          <p>
+            <strong>PHP was conceived sometime in the fall of 1994 by Rasmus Lerdorf.</strong>Early non-released versions were used
+              on his home page to keep track of who was looking at his online resume. The first version used by others was available
+              sometime in early <strong>1995</strong> and was known as the Personal Home Page Tools.
+          </p>
+        </div>
+      </div>
+
+      <h2>PHP Introduction</h2>
+      <h3>What is PHP?</h3>
+      <ul>
+        <li><strong>PHP started out as a small open source project that evolved as more and more people found out how useful it was.
+          Rasmus Lerdorf unleashed the first version of PHP way back in 1994.</strong></li>
+        <li>PHP is a recursive acronym for <strong>"PHP: Hypertext Preprocessor".</strong></li>
+        <li>
+          PHP is a server side scripting language that is embedded in HTML. It is used to manage dynamic content, databases, session tracking, even build entire e-commerce sites.</li>
+        <li>It is integrated with a number of popular databases, including MySQL, PostgreSQL, Oracle, Sybase, Informix, and Microsoft SQL Server.</li>
+        <li>PHP is forgiving: PHP language tries to be as forgiving as possible.</li>
+      </ul>
+      <h2>Characteristics of PHP</h2>
+      <pre>
+        <code>
+          Five important characteristics make PHP's practical nature possible −
+              Familiarity
+              Simplicity
+              Security
+              Efficiency
+              Flexibility
+        </code>
+      </pre>
+      <h2>PHP Syntax</h2>
+      <ul>
+        <li>This chapter will give you an idea of very basic syntax of PHP and very important to make your PHP foundation strong.</li>
+      </ul>
+      <h3>Basic PHP Syntax</h3>
+      <pre>
+        <code>
+          <kbd>&lt?</kbd><kbd class="html-tag">php</kbd>
+          <samp class="object-tag">// PHP code goes here</samp>
+          <kbd>?></kbd>
+        </code>
+      </pre>
+      <ul>
+        <li>The default file extension for PHP files is ".php".</li>
+        <li>we have an example of a simple PHP file, with a PHP script that uses a built-in PHP function "echo" to output the text "BUIE LEARNING" on a web page:</li>
+      </ul>
+      <h3>Example</h3>
+      <pre>
+        <code>
+          <textarea>
+          <!DOCTYPE html>
+          <html>
+          <body>
+
+          <h1>My first PHP page</h1>
+
+          <?php
+          echo "BUIE LEARNING";
+         </body>
+         </html></textarea>
+        </code>
+      </pre>
+      <h2>PHP Case Sensitivity</h2>
+      <h3>Example</h3>
+      <pre>
+        <code>
+          <textarea>
+            <!DOCTYPE html>
+            <html>
+            <body>
+
+            <?php
+            ECHO "Hello World!<br>";
+            echo "Hello World!<br>";
+            EcHo "Hello World!<br>";
+            ?>
+
+           </body>
+           </html>
+          </textarea>
+        </code>
+      </pre>
+      <h2>PHP Variables</h2>
+      <h3>Rules for PHP variables:  </h3>
+      <ul>
+        <li>A variable name must start with a letter or the underscore character</li>
+        <li>A variable starts with the $ sign, followed by the name of the variable</li>
+        <li>A variable name cannot start with a number</li>
+        <li>Variable names are case-sensitive ($age and $AGE are two different variables)</li>
+      </ul>
+      <h3>Output Variables</h3>
+      <pre>
+        <code>
+          <textarea >
+            <?php
+            $txt = "W3Schools.com";
+            echo "I love $txt!";
+            ?>
+          </textarea>
+        </code>
+      </pre>
+
+    </section>
+
+
+
+    <!-- -----------footer section------------ -->
+
+    <section class="footer">
+
+      <div class="box-container">
+
+        <div class="box">
+          <h3>about</h3>
+          <p>This is a platform where students can learn web development, app development & different programming languages through video tutorials.
+            And student can also run their program using our website through Online IDE.This is free learning website.</p>
+        </div>
+
+        <div class="box">
+          <h3>contact us</h3>
+          <p><i class="fas fa-phone"></i> 843-652-8938 | 973-474-7448 </p>
+          <p><i class="fas fa-envelope"></i> souravbuie17@gmail.com</p>
+          <p><i class="fas fa-map-marker-alt"></i> Subhankarnagar , Pohabagan , Bankura - 722146 , West Bengal , INDIA.</p>
+        </div>
+
+      </div>
+
+      <div class="credit">created with <i class="fas fa-heart"></i> by final year <span>F</span> group</div>
+    </section>
+
+  </div>
+
+
+  <!-- ----- custom js file link----- -->
+
+  <script src="../js/main.js"></script>
+
+</body>
+
+</html>
