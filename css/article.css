@@ -62,13 +62,13 @@ pre code {
  }
 
 .text {
-  /* background-color: #f7f8f7; */
-  background-color: rgba(255, 244, 231, 0.658);
+  background-color: #f7f8f7;
+  /* background-color: rgba(255, 244, 231, 0.658); */
   /* background-color: #d2d8de; */
   /* background-color: #e9ebef; */
   /* background-color: #d6cdc1; */
   /* background-color: #dee3df; */
-  
+
 }
 
 .text h1{
@@ -206,7 +206,7 @@ span {
     font-weight: 400;
     word-spacing: 4px;
     /* letter-spacing: 2px; */
-    /* list-style-type: square; */ 
+    /* list-style-type: square; */
   }
 
   ul {
