@@ -15,7 +15,6 @@
   gap: 20px;
   margin: 5rem;
 }
-
 /* -----------------youtube title and heading ----------------- */
 .video h2 {
   font-size: 2rem;
@@ -46,6 +45,7 @@
   height: auto;
   width: 100%;
 }
+
 
 @media (max-width:768px) {
   .python h1 {

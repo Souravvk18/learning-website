@@ -1,0 +1,20 @@
+video {
+  height: auto;
+  width: 100%;
+  box-shadow: 0 15px 50px rgba(67, 226, 247, 0.500);
+}
+
+/* h3 {
+  padding: 10px;
+  font-weight: bold;
+  font-size: 40px;
+} */
+
+h3 {
+  margin: 10px;
+}
+p {
+  padding: 10px;
+  padding-top: 30px;
+  margin: 10px;
+}
