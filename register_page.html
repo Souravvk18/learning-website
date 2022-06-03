@@ -39,8 +39,8 @@
           <!------------------------------------------Hear I link php Register file ---------------------------------------------------- -->
 
           <form class="register" id="register" action="register.php" method="post">
-            <input type="text" class="input-box" minlength="4" maxlength="15"  name="fname" placeholder="First Name">
-            <input type="text" class="input-box" minlength="3" maxlength="15" name="lname" placeholder="Last Name">
+            <input type="text" class="input-box" minlength="4" maxlength="15"  name="fname" placeholder="First Name" required>
+            <input type="text" class="input-box" minlength="3" maxlength="15" name="lname" placeholder="Last Name" required>
 
             <script>
               var firstName = "virginia";
@@ -48,21 +48,21 @@
               var fullName = firstName + " " + lastName;
             </script>
 
-            <select class="input-box" name="gender">
-              <option value="student">Select Gender</option>
-              <option style="color: black; font-weight: 500;" value="male">Male</option>
+            <select class="input-box" name="gender" required>
+              <option value="student" >Select Gender</option>
+              <option style="color: black; font-weight: 500;" value="male" >Male</option>
               <option style="color: black; font-weight: 500;" value="female">Female</option>
             </select>
-                <input type="text" class="input-box" name="age" maxlength="2" pattern="[1-9]{2}"  placeholder="Your Age"
-                title="Enter valid age">
+                <input type="text" class="input-box" name="age"  pattern="[0-9]{2}"  placeholder="Your Age"
+                title="Enter valid age" required>
 
                 <!-- <h3>Date of Birth:</h3>
                 <input type="date" class="input-box" id="birthday" name="birthday"> -->
 
-            <input type="text" class="input-box" name="mobilenumber" minlength="10" maxlength="10" pattern="[6789][0-9]{9}" placeholder="Mobile No" title="Enter valid phone number">
-            <input type="email" class="input-box" name="email" placeholder="Your Email" title="Enter valid email">
-            <input type="text" class="input-box" name="userid" minlength="6" placeholder="Create User Id" title="Minimum 6 digits or characters" >
-            <input type="password" class="input-box" minlength="8" name="password" placeholder="Create Password" title="Minimum 8 digits or characters">
+            <input type="text" class="input-box" name="mobilenumber"  minlength="10" maxlength="10" pattern="[6789][0-9]{9}" placeholder="Mobile No" title="Enter valid phone number" required>
+            <input type="email" class="input-box" name="email" placeholder="Your Email" title="Enter valid email" required>
+            <input type="text" class="input-box" name="userid" minlength="6" placeholder="Create User Id" title="Minimum 6 digits or characters" required>
+            <input type="password" class="input-box" minlength="8" name="password" placeholder="Create Password" title="Minimum 8 digits or characters" required>
 
             <button type="submit" class="submit-btn register-submit">register</button>
           </form>
