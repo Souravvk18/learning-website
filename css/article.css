@@ -34,7 +34,13 @@ li {
   list-style-type: square;
 
 }
-
+.li {
+  list-style-type: decimal;
+}
+ol {
+  margin-bottom: 32px;
+  padding-bottom: 32px;
+}
 ul {
   margin-bottom: 32px;
   padding-bottom: 32px;

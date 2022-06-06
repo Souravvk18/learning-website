@@ -12,7 +12,7 @@
 
   <!-- ----link css file----- -->
   <link rel="stylesheet" href="../css/style.css">
-  <link rel="stylesheet" href="../css/programming.css">
+  <link rel="stylesheet" href="../css/article.css">
 </head>
 
 <body>
@@ -39,138 +39,252 @@
 
     <section class="text">
       <h1> C++ Article</h1>
-    <br><br>
-    <h2>*C++ Programming Language--></h2><br><p>C++ is a general-purpose programming language and is widely used nowadays for competitive programming. It has
-       imperative, object-oriented and generic programming features. C++ runs on lots of platforms like Windows, Linux, Unix, Mac etc.</p><br><br>
-    <h2>*Basic Syntax and First Program in C++--></h2><br><p>Learning C++ programming can be simplified into writing your program in a text editor and saving it with
-      correct extension(.CPP, .C, .CP) and compiling your program using a compiler or online IDE. The “Hello World” program is the first step towards
-      learning any programming language and also one of the simplest programs you will learn.</p><br><br>
-    <h2>*Basic I/O in C++--></h2><br><p>C++ comes with libraries which provides us with many ways for performing input and output.</p><br><p> In C++ input and output is performed in
-      the form of a sequence of bytes or more commonly known as streams. The two keywords cin and cout are used very often for taking inputs and printing
-       outputs respectively. These two are the most basic methods of taking input and output in C++.</p><br><br>
-  <h2>*Variables and Types in C++--></h2><br><p> A variable is a name given to a memory location. It is the basic unit of storage in a program. The value stored in a variable
-      can be changed during program execution. A variable is only a name given to a memory location, all the operations done on the variable effects that memory
-      location. In C++, all the variables must be declared before use.<br><br></p>
-  <h2>*C++ Data Types--></h2><br><p>All variables use data-type during declaration to restrict the type of data to be stored. </p><br><p>Therefore, we can say that data types are
-        used to tell the variables the type of data it can store. Whenever a variable is defined in C++, the compiler allocates some memory for that variable
-        based on the data type with which it is declared. Every data type requires a different amount of memory.<br></p>
-        <p>  Data types in C++ are mainly divided into three types:</p><br>
-    <p>  1. Primitive Data Types: These data types are built-in or predefined data types and can be used directly by the user to declare variables. example: int,
-         char, float, bool, etc.<br></p>
-      <p>  Primitive data types available in C++ are:<br> <br>
-          Integer<br>
-          Character<br>
-          Boolean<br>
-          Floating Point<br>
-          Double Floating Point<br>
-          Valueless or Void<br>
-          Wide Character<br></p> <br>
-    <p> 2. Derived Data Types: The data types that are derived from the primitive or built-in datatypes are referred to as Derived Data Types.</p>
-    <p>  These can be of four types namely:<br> <br>
-           Function<br>
-           Array<br>
-           Pointer<br>
-           Reference<br></p> <br>
-    <p>3. Abstract or User-Defined Data Types: These data types are defined by the user itself. Like, as defining a class in C++ or a structure.</p>
-       <p>C++ provides the following user-defined datatypes:<br>
-          Class<br>
-          Structure<br>
-          Union<br>
-          Enumeration<br>
-          Typedef defined DataType<br></p> <br>
-  <h2>  *Datatype Modifiers--></h2><p>As the name implies, datatype modifiers are used with the built-in data types to modify the length of data that a particular data type
-       can hold.<br><br></p>
-       <p>Data type modifiers available in C++ are:<br>
-       Signed<br>
-       Unsigned<br>
-       Short<br>
-       Long<br></p>
-  <h2> *Operators in C++--></h2> <br><p>Operators are the foundation of any programming language. Thus the functionality of C/C++ programming language is incomplete without the use
-      of operators. We can define operators as symbols that help us to perform specific mathematical and logical computations on operands. In other words, we can say
-      that an operator operates the operands.<br></p>
-   <h2>*Loops in C++--></h2><br><p> Loops in programming comes into use when we need to repeatedly execute a block of statements. For example: Suppose we want to print “Hello World” 10 times.
-      This can be done in two ways, Iterative method and by using Loops.<br></p>
-  <h2> *Errors in C++--></h2><br> <p>Error is an illegal operation performed by the user which results in abnormal working of the program. Programming errors often remain undetected until the
-     program is compiled or executed. Some of the errors inhibit the program from getting compiled or executed. Thus errors should be removed before compiling and executing.<br></p>
-     <br>
-    <h2>*Arrays in C++--></h2><br><p>An array in C/C++ or be it in any programming language is a collection of similar data items stored at contiguous memory locations and elements can be
-      accessed randomly using indices of an array.  They can be used to store collection of primitive data types such as int, float, double, char, etc of any particular type.
-      To add to it, an array in C/C++ can store derived data types such as the structures, pointers etc. Given below is the picture representation of an array.<br><br></p>
-  <h2>*Need array--></h2><br><p>We can use normal variables (v1, v2, v3, ..) when we have a small number of objects, but if we want to store a large number of instances, it becomes difficult
-     to manage them with normal variables. The idea of an array is to represent many instances in one variable.<br><br></p>
-    <h2>*std::string class in C++--></h2><br><p>C++ has in its definition a way to represent a sequence of characters as an object of the class. This class is called std:: string. String class
-      stores the characters as a sequence of bytes with the functionality of allowing access to the single-byte character.<br><br></p>
-    <h2>*Raw String Literal in C++--></h2><br><p>A Literal is a constant variable whose value does not change during the lifetime of the program. Whereas, a raw string literal is a string in which
-      the escape characters like ‘ \n, \t, or \” ‘ of C++ are not processed. Hence, a raw string literal that starts with R”( and ends in )”.<br><br></p>
-  <h2>  *Functions in C++--></h2><br><p>A function is a set of statements that take inputs, do some specific computation and produces output.The idea is to put some commonly or repeatedly done task
-      together and make a function so that instead of writing the same code again and again for different inputs, we can call the function.<br><br></p>
-      <h2>*function overloading in C++--></h2>
-      <p> With the C++ language, you can overload functions and operators. A function Overloading is a common way of implementing polymorphism. Overloading is the practice of supplying more than one definition for a
-         given function name in the same scope. A user can implement function overloading by defining two or more functions in a class sharing the same name. C++ can distinguish the methods with different method signatures
-         (types and number of arguments in the argument list).<br>
-            <b>Note: You cannot overload function declarations that differ only by return type</b>
-            <h2>*Overriding in C++--></h2>
-            <p> Overriding a method means that replacing a function functionality in child class. To imply overriding functionality we need parent and child classes. In the child class, you define the same method signature
-               as one defined in the parent class.<br>
-             In simple words, when the base class and child class have member functions with exactly the same name, same return type, and same parameter list, then it is said to be function overriding.</p>
-      </p>
-    <h2>*Inline Functions in C++--></h2><br><p>C++ provides an inline functions to reduce the function call overhead. Inline function is a function that is expanded in line when it is called. When the
-      inline function is called whole code of the inline function gets inserted or substituted at the point of inline function call. This substitution is performed by the C++ compiler at
-      compile time. Inline function may increase efficiency if it is small.<br><br></p>
-    <h2>*Pointers--></h2><br><p>A pointer is a variable that holds memory address of another variable. A pointer needs to be dereferenced with * operator to access the memory location it points to.</p>
-    <br><br>
-    <h2>*Use shared pointer in C++--></h2>
-    <p>A shared_ptr is used to represent shared ownership. It is a type of smart pointer that is designed for scenarios in which the lifetime of the object in memory is managed by more than one owner.
-    </p>
-    <p>Like the unique_ptr, shared_ptr is also defined in the memory header in the C++ Standard Library. Because it follows the concept of shared ownership, after initializing a shared_ptr you can copy it,
-       assign it or pass it by value in function arguments. All the instances point to the same allocated object.</p>
-       <p>The shared_ptr is a “reference counted pointer“. A reference counter is increased whenever a new shared_ptr is added and decreases whenever a shared_ptr goes out of scope or is reset. When the reference
-          count reaches zero, the pointed object is deleted. It means the last remaining owner of the pointer is responsible for destroying the object.</p>
-        <h3>The conclusion of the above statement is that the owned object is destroyed when either of the following happens:</h3>
-          <p>
-            1. The last remaining shared_ptr owning the object is destroyed ( reference count is zero).<br>
-            2. The last remaining shared_ptr owning the object is assigned another pointer via operator= or reset().<br>
 
-          </p><br>
-          <h2>*smart pointers--></h2>
-          <p>A smart pointer is an RAII modeled class designed to handle the dynamically allocated memory. Smart pointers ensure that the allocated memory will be released when the smart pointer object goes out of
-            the scope. In this way, the programmer is free from managing dynamically allocated memory manually.
-          </p><br>
-            <h2>*size of an empty class not zero in C++--></h2>
-            <p>The standard does not allow objects of size 0 since that would make it possible for two distinct objects to have the same memory address. That’s why even empty classes must have a size of (at least) 1 byte.</p>
-  <h2>  *References--> </h2><br><p>A reference variable is an alias, that is, another name for an already existing variable. A reference, like a pointer, is also implemented by storing the address of an object.
-      A reference can be thought of as a constant pointer (not to be confused with a pointer to a constant value!) with automatic indirection, i.e the compiler will apply the * operator for you.</p>
-      <h2>*Some real-world applications where C++ is widely used:-</h2><p>
-CAD Software.<br>
-Game Development.<br>
-GUI-based applications.<br>
-Operating systems.<br>
-Banking applications.<br>
-Advanced computations and graphics.<br>
-Embedded systems.<br>
-Database software.<br>
+      <h2>C++ Programming Language</h2>
+      <p>
+        C++ is a general-purpose programming language and is widely used nowadays for competitive programming. It has
+        imperative, object-oriented and generic programming features. C++ runs on lots of platforms like Windows, Linux, Unix, Mac etc.
       </p>
-      <h2>*constructor--></h2>
-      <p> Class constructors in C++  are special member functions of a class and it initializes the object of a class. It is called by the compiler (automatically) whenever we create new objects of that class. The name of the constructor
+
+      <h2>Basic Syntax and First Program in C++</h2>
+      <p>
+        Learning C++ programming can be simplified into writing your program in a text editor and saving it with
+        correct extension(.CPP, .C, .CP) and compiling your program using a compiler or online IDE. The “Hello World” program is the first step towards
+        learning any programming language and also one of the simplest programs you will learn.
+      </p>
+
+      <h2>Basic I/O in C++</h2>
+      <p>
+        C++ comes with libraries which provides us with many ways for performing input and output.In C++ input and output is performed in the form of a sequence of bytes or more commonly known as streams. The two keywords cin and cout are used very
+        often for taking inputs and printing outputs respectively. These two are the most basic methods of taking input and output in C++.
+      </p>
+
+      <h2>Variables and Types in C++</h2>
+      <p>
+        A variable is a name given to a memory location. It is the basic unit of storage in a program. The value stored in a variable can be changed during program execution. A variable is only a name given to a memory location, all the operations
+        done on the variable effects that memory location. In C++, all the variables must be declared before use.
+      </p>
+
+      <h2>C++ Data Types</h2>
+      <p>
+        All variables use data-type during declaration to restrict the type of data to be stored.Therefore, we can say that data types are used to tell the variables the type of data it can store. Whenever a variable is defined in C++, the compiler
+        allocates some memory for that variable based on the data type with which it is declared. Every data type requires a different amount of memory.
+        <p />
+
+      <ol>
+        <li class="li">
+          Primitive Data Types: These data types are built-in or predefined data types and can be used directly by the user to declare variables. example: int,
+          char, float, bool, etc.
+        </li>
+        <li class="li">
+          Primitive data types available in C++ are:
+          <ol>
+            <li>Integer</li>
+            <li>Character</li>
+            <li>Boolean</li>
+            <li>Floating Point</li>
+            <li>Double Floating Point</li>
+            <li>Valueless or Void</li>
+            <li>Wide Character</li>
+          </ol>
+
+        </li>
+        <li class="li">
+          Derived Data Types: The data types that are derived from the primitive or built-in datatypes are referred to as Derived Data Types.
+        </li>
+        <li class="li">Derived Data Types: The data types that are derived from the primitive or built-in datatypes are referred to as Derived Data Types. <br> <br>
+          <strong>These can be of four types namely:</strong>
+          <ol>
+            <li>Function</li>
+            <li>Array</li>
+            <li>Pointer</li>
+            <li>Reference</li>
+          </ol>
+        </li>
+
+        <li class="li">Abstract or User-Defined Data Types: These data types are defined by the user itself. Like, as defining a class in C++ or a structure.<br><br>
+          <strong>C++ provides the following user-defined datatypes:</strong>
+        </li>
+        <ol>
+          <li>Class</li>
+          <li>Structure</li>
+          <li>Union</li>
+          <li>Enumeration</li>
+          <li>Typedef defined DataType</li>
+        </ol>
+      </ol>
+
+      <h2> Datatype Modifiers</h2>
+
+      <p>
+        As the name implies, datatype modifiers are used with the built-in data types to modify the length of data that a particular data type
+        can hold.<strong>Data type modifiers available in C++ are:</strong>
+      <ol>
+        <li>Signed</li>
+        <li>Unsigned</li>
+        <li>Short</li>
+        <li>Long</li>
+      </ol>
+
+      <h2>Operators in C++</h2>
+      <p>
+        Operators are the foundation of any programming language. Thus the functionality of C/C++ programming language is incomplete without the use
+        of operators. We can define operators as symbols that help us to perform specific mathematical and logical computations on operands. In other words, we can say
+        that an operator operates the operands.
+      </p>
+
+      <h2>Loops in C++</h2>
+      <p>
+        Loops in programming comes into use when we need to repeatedly execute a block of statements. For example: Suppose we want to print “Hello World” 10 times.This can be done in two ways, Iterative method and by using Loops.
+      </p>
+
+      <h2>Errors in C++</h2>
+      <p>
+        Error is an illegal operation performed by the user which results in abnormal working of the program. Programming errors often remain undetected until the
+        program is compiled or executed. Some of the errors inhibit the program from getting compiled or executed. Thus errors should be removed before compiling and executing.
+      </p>
+
+      <h2>Arrays in C++</h2>
+      <p>
+        An array in C/C++ or be it in any programming language is a collection of similar data items stored at contiguous memory locations and elements can be
+        accessed randomly using indices of an array. They can be used to store collection of primitive data types such as int, float, double, char, etc of any particular type.
+        To add to it, an array in C/C++ can store derived data types such as the structures, pointers etc. Given below is the picture representation of an array.
+      </p>
+
+      <h2>Need array</h2>
+      <p>
+        We can use normal variables (v1, v2, v3, ..) when we have a small number of objects, but if we want to store a large number of instances, it becomes difficult
+        to manage them with normal variables. The idea of an array is to represent many instances in one variable.
+      </p>
+
+      <h2>std::string class in C++</h2>
+      <p>
+        C++ has in its definition a way to represent a sequence of characters as an object of the class. This class is called std:: string. String class
+        stores the characters as a sequence of bytes with the functionality of allowing access to the single-byte character.
+      </p>
+
+      <h2>Raw String Literal in C++</h2>
+      <p>
+        A Literal is a constant variable whose value does not change during the lifetime of the program. Whereas, a raw string literal is a string in which
+        the escape characters like ‘ \n, \t, or \” ‘ of C++ are not processed. Hence, a raw string literal that starts with R”( and ends in )”.
+      </p>
+
+      <h2>Functions in C++</h2>
+      <p>
+        A function is a set of statements that take inputs, do some specific computation and produces output.The idea is to put some commonly or repeatedly done task
+        together and make a function so that instead of writing the same code again and again for different inputs, we can call the function.
+      </p>
+
+      <h2>Function overloading in C++></h2>
+
+      <p>
+        With the C++ language, you can overload functions and operators. A function Overloading is a common way of implementing polymorphism. Overloading is the practice of supplying more than one definition for a given function name in the same
+        scope. A user can implement function overloading by defining two or more functions in a class sharing the same name. C++ can distinguish the methods with different method signatures (types and number of arguments in the argument list).
+        <strong>Note: You cannot overload function declarations that differ only by return type</strong>
+      </p>
+
+      <h2>Overriding in C++</h2>
+      <p>
+        Overriding a method means that replacing a function functionality in child class. To imply overriding functionality we need parent and child classes. In the child class, you define the same method signature as one defined in the parent
+        class.<br> In simple words, when the base class and child class have member functions with exactly the same name, same return type, and same parameter list, then it is said to be function overriding.
+      </p>
+
+      <h2>Inline Functions in C++</h2>
+      <p>
+        C++ provides an inline functions to reduce the function call overhead. Inline function is a function that is expanded in line when it is called. When the
+        inline function is called whole code of the inline function gets inserted or substituted at the point of inline function call. This substitution is performed by the C++ compiler at
+        compile time. Inline function may increase efficiency if it is small.
+      </p>
+
+      <h2>Pointers</h2>
+      <p>
+        A pointer is a variable that holds memory address of another variable. A pointer needs to be dereferenced with * operator to access the memory location it points to.
+      </p>
+
+      <h2>Use shared pointer in C++</h2>
+      <p>
+        A shared_ptr is used to represent shared ownership. It is a type of smart pointer that is designed for scenarios in which the lifetime of the object in memory is managed by more than one owner.
+      </p>
+
+      <p>
+        Like the unique_ptr, shared_ptr is also defined in the memory header in the C++ Standard Library. Because it follows the concept of shared ownership, after initializing a shared_ptr you can copy it, assign it or pass it by value in function
+        arguments. All the instances point to the same allocated object.
+      </p>
+
+      <p>
+        The shared_ptr is a “reference counted pointer“. A reference counter is increased whenever a new shared_ptr is added and decreases whenever a shared_ptr goes out of scope or is reset. When the reference count reaches zero, the pointed object
+        is deleted. It means the last remaining owner of the pointer is responsible for destroying the object.
+      </p>
+
+      <h2>The conclusion of the above statement is that the owned object is destroyed when either of the following happens:</h2>
+      <ol>
+        <li class="li">The last remaining shared_ptr owning the object is destroyed ( reference count is zero)
+        </li>
+        <li class="li">The last remaining shared_ptr owning the object is assigned another pointer via operator= or reset().</li>
+      </ol>
+
+      <h2>smart pointers</h2>
+      <p>
+        A smart pointer is an RAII modeled class designed to handle the dynamically allocated memory. Smart pointers ensure that the allocated memory will be released when the smart pointer object goes out of
+        the scope. In this way, the programmer is free from managing dynamically allocated memory manually.
+      </p>
+
+      <h2>size of an empty class not zero in C++</h2>
+      <p>
+        The standard does not allow objects of size 0 since that would make it possible for two distinct objects to have the same memory address. That’s why even empty classes must have a size of (at least) 1 byte.
+      </p>
+
+      <h2>References</h2>
+      <p>
+        A reference variable is an alias, that is, another name for an already existing variable. A reference, like a pointer, is also implemented by storing the address of an object.
+        A reference can be thought of as a constant pointer (not to be confused with a pointer to a constant value!) with automatic indirection, i.e the compiler will apply the * operator for you.
+      </p>
+
+      <h2>Some real-world applications where C++ is widely used:</h2>
+      <ol>
+        <li>CAD Software</li>
+        <li>Game Development</li>
+        <li>GUI-based applications</li>
+        <li>Operating systems</li>
+        <li>Banking applications</li>
+        <li>Advanced computations and graphics</li>
+        <li>Embedded systems</li>
+        <li>Database software</li>
+      </ol>
+
+      <h2>constructor</h2>
+      <p>
+        Class constructors in C++ are special member functions of a class and it initializes the object of a class. It is called by the compiler (automatically) whenever we create new objects of that class. The name of the constructor
         must be the same as the name of the class and it does not return anything.<br>
-    You should remember that the constructor has a secret argument and this argument is “this pointer” (Address of the object for which it is being called).</p>
-<br>
-<h2>*various OOPs concepts in C++--></h2>
-<p>Below we are mentioning a few fundamental OOP (Object Oriented Programming) concepts:<br>
-class.<br>
-object.<br>
-Inheritance.<br>
-Polymorphism.<br>
-Encapsulation.<br>
-Abstraction.<br>
-</p>
-<h2>*polymorphism in C++--></h2>
-<p>The word polymorphism is a Greek word that means “many-form“. So polymorphism in C++ means, the same entity (method or object) behaves differently in different scenarios. Let’s consider a real-life example of polymorphism. A man behaves like an employee in the office, a father, husband, or son in a home, and a customer in a market. So the same man possesses different behavior in different situations. This is called polymorphism. We can categorize polymorphism into two types. These are Compile-time polymorphism and Run-time polymorphism.</p>
+        You should remember that the constructor has a secret argument and this argument is “this pointer” (Address of the object for which it is being called).
+      </p>
 
-<br><br><p>
-***FOR MORE INFORMATION  "C" LANGUAGE GO TO THE VIDEO SECTION AND WATCH ANY VIDEO***<br><br></p>
+      <h2>various OOPs concepts in C++</h2>
+      <p>
+        <strong>
+          Below we are mentioning a few fundamental OOP (Object Oriented Programming) concepts:
+        </strong>
+      <ol>
+        <li>class</li>
+        <li>object</li>
+        <li>Inheritance</li>
+        <li>Polymorphism</li>
+        <li>Encapsulation</li>
+        <li>Abstraction</li>
+      </ol>
+      </p>
 
-</section>
+      <h2>polymorphism in C++</h2>
+      <p>
+        The word polymorphism is a Greek word that means “many-form“. So polymorphism in C++ means, the same entity (method or object) behaves differently in different scenarios. Let’s consider a real-life example of polymorphism. A man behaves like
+        an employee in the office, a father, husband, or son in a home, and a customer in a market. So the same man possesses different behavior in different situations. This is called polymorphism. We can categorize polymorphism into two types.
+        These are Compile-time polymorphism and Run-time polymorphism.
+      </p>
+
+      <strong>
+        FOR MORE INFORMATION "C" LANGUAGE GO TO THE VIDEO SECTION AND WATCH ANY VIDEO</strong>
+
+    </section>
 
 
 
