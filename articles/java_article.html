@@ -7,19 +7,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Articals</title>
 
-  <!-- -----font awesome cdn link----- -->
+  <!-- -----font awesome cdn link----->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
-  <!-- ----link css file----- -->
+  <!-- ----link css file----->
   <link rel="stylesheet" href="../css/style.css">
-  <link rel="stylesheet" href="../css/programming.css">
+  <link rel="stylesheet" href="../css/article.css">
 </head>
 
 <body>
 
   <div class="container">
 
-    <!-- ---------header-------- -->
+    <!-- ---------header-------->
 
     <header>
       <a href="../home_page.html" class="logo">BUI<span>E-learning</span></a>
@@ -38,125 +38,234 @@
     </header>
     <section class="text">
       <h1> JAVA Article</h1>
-    <br><br><h2>*Java--></h2><br><p>
-It’s a high level programming language, developed by the Sun MicroSystems in 1995. It is a fully based on
-OOPS (Object Oriented Programming System). Java is very reliable, secure and fast language, it is platform independent too.
-A Java program can be run on any system which has JVM.<br><br></p>
-<h2>*JVM--></h2><br><p>
-JVM stands for Java Virtual Machine; It is a virtual machine (abstract machine) which provides the runtime environment which
- Java bytecode can be executed.<br><br></p>
-<h2>*JDK & JRE--></h2><br><p>
-JRE stands for Java Runttime Environments, it is the environment of JVM & physical existence. JDK stands for Java Development Kit,
- it is the combination of JRE and Java tools, and with the help of these tools we can develop a Java Program.<br><br></p>
-<h2>*JIT Compiler--></h2><br><p>
-It is the Just-In-Time Compiler, It complies the similar functionality code also improves the performance. It reduces the compilation time
-as it can compile same functionality code in same time.<br><br></p>
-<h2>*OOPS & OOBS programming system--></h2><br><p>
-The language which does not support the concept of inheritance is known as Object Oriented Based System, while OOPS supports the all features
-of Object Oriented Programming System including inheritance. JavaScript, VBScript are the example of Object Oriented Based System (OOBS) programming
- Language.<br><br></p>
-<h2>*The importance of main method in Java--></h2><br><p>
-main() method is the entry point of any standalone java application. The syntax of main method is public static void main(String args[]).
-main method is public and static so that java can access it without initializing the class. The input parameter is an array of String through
-which we can pass runtime arguments to the java program.<br><br></p>
-<h2>*Differentiate return and system.exit(0)--></h2><br><p>
-As we know that return is a jumping statement which is used to transfer control from called method to calling method, whereas System.exit(0)
- is a method, which is used to come out of the program.<br><br></p>
-<h2>*Differentiate System.out and System.err--></h2><br><p>
-In java both objects are represents monitor by default. They are used to send data to the monitor. But System.out is used to print normal messages
-whereas System.err is used to print error messages.<br><br></p>
-<p>
-*There are three types of built-in Class Loaders in Java:<br>
-1.Bootstrap Class Loader – It loads JDK internal classes, typically loads rt.jar and other core classes.<br>
-2.Extensions Class Loader – It loads classes from the JDK extensions directory, usually $JAVA_HOME/lib/ext directory.<br>
-3.System Class Loader – It loads classes from the current classpath that can be set while invoking a program using -cp or -classpath
- command line options.<br><br></p>
-<h2>*Java Variables--></h2><br><p>A variable is a container which holds the value while the Java programis executed. A variable is assigned with a data type.
-Variable is a name of memory location. There are three types of variables in java: local, instance and static.There are two types of data types in Java
-: primitive and non-primitive.<br><br></p>
-<h2>*Types of Variables--></h2><p>There are three types of variables in Java:<br>
------local variable<br>
------instance variable<br>
------static variable<br><br></p>
-<h2>*Local Variable Type Inference--></h2>
-<p>Java now features a var keyword similar to Javascript to declare a variable without specifying its type. The stored value of the variable will indicate the
-  variable type. For example, if you have written this line of code, var name = “Name” then the compiler will know that the variable value is a String.<br>
-Var keyword can only be used for declaration of local variables and can not be used for member variable declaration (which is done inside the class body). You
-also need to note that this change still does not make it a dynamically typed language such as Python. However, this feature reduces a lot of lines of code which
-are otherwise required to declare local variables using the Java language.</p>
-<h2>*Data Types in Java--></h2><br><p>boolean data type,byte data type,char data type,short data type,int data type,long data type,float data type,double data type.<br><br>
-<h2>*Operators in Java--></h2><br><p>Operator in Java is a symbol that is used to perform operations. For example: +, -, *, / etc.<br></p>
-          <p>There are many types of operators in Java which are given below:Unary Operator,Arithmetic Operator,Shift Operator,Relational Operator,
-            Bitwise Operator,Logical Operator,Ternary Operator andAssignment Operator.<br><br></p>
-<h2>*Java Keywords---></h2><br><p>Java keywords are also known as reserved words. Keywords are particular words that act as a key to a code. These are predefined
-            words by Java so they cannot be used as a variable or object name or class name.<br><br></p>
-<h2>*List of Java Keywords--></h2><br><p>
-  1)abstract: Java abstract keyword is used to declare an abstract class. An abstract class can provide the implementation of the interface. It can have abstract
-       and non-abstract methods.<br>
-  2)case: Java case keyword is used with the switch statements to mark blocks of text.<br>
-  3)extends: Java extends keyword is used to indicate that a class is derived from another class or interface.<br>
- 4)import: Java import keyword makes classes and interfaces available and accessible to the current source code.<br>
- 5)int: Java int keyword is used to declare a variable that can hold a 32-bit signed integer.<br>
- 6)package: Java package keyword is used to declare a Java package that includes the classes.<br>
- 7)private: Java private keyword is an access modifier. It is used to indicate that a method or variable may be accessed only in the class in which it is declared.<br>
- 8)protected: Java protected keyword is an access modifier. It can be accessible within the package and outside the package but through inheritance only. It can't
-    be applied with the class.<br>
- 9)public: Java public keyword is an access modifier. It is used to indicate that an item is accessible anywhere. It has the widest scope among all other modifiers.<br></p>
-<br><br><h2>*Abstract class in Java--></h2><br><p>
-A class which is declared with the abstract keyword is known as an abstract class in Java. It can have abstract and non-abstract methods (method with the body).
-Before learning the Java abstract class, let's understand the abstraction in Java first.<br><br></p>
-<h2>*Java Arrays--></h2><br><p>Java array is an object which contains elements of a similar data type. Additionally, The elements of an array are stored in a contiguous memory location.
-  It is a data structure where we store similar elements. We can store only a fixed set of elements in a Java array.</p><br><br>
-<h2>*Java String--></h2><br><p>
-In Java, string is basically an object that represents sequence of char values. An array of characters works same as Java string.<br><br></p>
-  <p>  For example:
-<br><br>char[] ch={'j','a','v','a'};<br><br>
-String s=new String(ch);<br><br></p>
-<h2>*Java function--></h2><p>A method is a block of code which only runs when it is called.<br>
-                                You can pass data, known as parameters, into a method.<br>
-                             Methods are used to perform certain actions, and they are also known as functions.
-  <br><br>example- <br><br>public class Main {
-            <br><br>       public static void foo()<br><br> {
 
-                                                        <br><br>    }<br><br>
-                                                     }</p>
+      <h2>Java</h2>
+      <p>
+        It’s a high level programming language, developed by the Sun MicroSystems in 1995. It is a fully based on OOPS (Object Oriented Programming System). Java is very reliable, secure and fast language, it is platform independent too. A Java
+        program can be run on any system which has JVM.
+      </p>
 
-<br><h2>*Time-Based Released Versioning--></h2>
-<p>Java has scheduled a new release every six months since JDK 10 release. This approach has received a mix of both
-  positive and negative reviews from the Java community. The update element also increments 1 month after a Feature element.
-  This means that the April 2018 java release is JDK 10.0.1, whereas July 2018 release is JDK 10.0.2 so on and so forth.</p>
-  <h2>*Garbage-Collector Interface --></h2>
-  <p>Garbage Collector interface is another useful and interesting Java 10 feature. It gives a clean garbage collector interface
-   which means that you can now exclude GC from a JDK build. This makes it easy to add a new GC without working on the code base.
-   Read about Java Memory Management to understand how G1 Garbage Collection works and learn the difference between G1 and Concurrent
-   Mark Sweep Garbage Collector.</p>
-   <h2>* Heap Allocation on Alternative Memory Devices--></h2>
-   <p>Heap Allocation on Alternative Memory Devices is another great Java 10 feature. It helps to enable HotSpot VM to allocate Java
-     object heap on an alternative memory device indicated by the user. This feature also makes it possible to allocate lower priority
-     procedures for using the NV-DIMM memory while assisting the higher priority procedures to the DRAM in a multi-JVM environment.</p>
-     <h2>*Root Certificates--></h2>
-<p>
-  Root Certificates is another significant change featured in Java 10. JDK 10 was built in connection with OpenJDK and that’s prominent
-  from this feature, as it offers a default set of root Certification Authority. It also focuses on reducing the difference between OpenJDK
-  and Oracle JDK. Security components such as TLS are default enabled in OpenJDK builds.</p>
-  <h2>*Application class-data sharing--></h2>
-  <p>Class-Data Sharing time was introduced in Java 5 to improve startup times of small java applications. It helped in loading the class metadata
-     so as not to load all of it each time. This shared data cache signified a big improvement in startup times for small applications as the relative
-     core class size was mostly larger in size than the application. In Java 10, this feature is further extended to include the system classloader and
-     the platform classloader. To benefit from that, simply add -XX:+UseAppCDS as a parameter.</p>
-     <h2>*Thread-Local Handshakes--></h2>
-     <p>Thread-Local Handshakes in Java 10 offers an improved VM performance. It enables callback on application threads without the execution of a global
-       VM savepoint. This means that the JVM can now also stop individual threads instead of collective threads whenever required.<br>
-      Small improvements are also done as part of this feature to enhance VM performance. Various memory barriers are removed from JVM with an improved biased
-      locking to stop individual threads for revoking biases.</p>
-<p>
-<br><br>***FOR MORE INFORMATION  "C" LANGUAGE GO TO THE VIDEO SECTION AND WATCH ANY VIDEO***<br><br>
-</p>
+      <h2>JVM</h2>
+      <p>
+        JVM stands for Java Virtual Machine; It is a virtual machine (abstract machine) which provides the runtime environment which
+        Java bytecode can be executed.
+      </p>
 
-</section>
+      <h2>JDK & JRE</h2>
+      <p>
+        JRE stands for Java Runttime Environments, it is the environment of JVM & physical existence. JDK stands for Java Development Kit, it is the combination of JRE and Java tools, and with the help of these tools we can develop a Java Program.
+      </p>
+
+      <h2>JIT Compiler</h2>
+      <p>
+        It is the Just-In-Time Compiler, It complies the similar functionality code also improves the performance. It reduces the compilation time
+        as it can compile same functionality code in same time.
+      </p>
+
+      <h2>OOPS & OOBS programming system</h2>
+      <p>
+        The language which does not support the concept of inheritance is known as Object Oriented Based System, while OOPS supports the all features
+        of Object Oriented Programming System including inheritance. JavaScript, VBScript are the example of Object Oriented Based System (OOBS) programming
+        Language.
+      </p>
+
+      <h2>The importance of main method in Java</h2>
+      <p>
+        main() method is the entry point of any standalone java application. The syntax of main method is public static void main(String args[]).
+        main method is public and static so that java can access it without initializing the class. The input parameter is an array of String through
+        which we can pass runtime arguments to the java program.
+      </p>
+
+      <h2>Differentiate return and system.exit(0)</h2>
+      <p>
+        As we know that return is a jumping statement which is used to transfer control from called method to calling method, whereas System.exit(0)
+        is a method, which is used to come out of the program.
+      </p>
+
+      <h2>Differentiate System.out and System.err</h2>
+      <p>
+        In java both objects are represents monitor by default. They are used to send data to the monitor. But System.out is used to print normal messages whereas System.err is used to print error messages.
+        <strong>There are three types of built-in Class Loaders in Java:
+        </strong>
+      </p>
+      <ol>
+        <li class="li">
+          <strong>Bootstrap Class Loader –</strong> It loads JDK internal classes, typically loads rt.jar and other core classes.
+        </li>
+        <li class="li">
+          <strong>Extensions Class Loader –</strong> It loads classes from the JDK extensions directory, usually $JAVA_HOME/lib/ext directory.
+        </li>
+        <li class="li">
+          <strong>System Class Loader –</strong> It loads classes from the current classpath that can be set while invoking a program using -cp or -classpath command line options.
+        </li>
+      </ol>
+
+      <h2> Java Variables</h2>
+      <p>
+        A variable is a container which holds the value while the Java programis executed. A variable is assigned with a data type. Variable is a name of memory location. There are three types of variables in java: local, instance and static.There
+        are two types of data types in Java
+        : primitive and non-primitive.
+      </p>
+
+      <h2> Types of Variables</h2>
+      <ol>
+        <p>There are three types of variables in Java:</p>
+        <li>local variable</li>
+        <li>instance variable</li>
+        <li>static variable </li>
+      </ol>
+
+      <h2>Local Variable Type Inference</h2>
+      <p>
+        Java now features a var keyword similar to Javascript to declare a variable without specifying its type. The stored value of the variable will indicate the variable type. For example, if you have written this line of code, var name = “Name”
+        then the compiler will know that the variable value is a String.Var keyword can only be used for declaration of local variables and can not be used for member variable declaration (which is done inside the class body). You also need to note
+        that this change still does not make it a dynamically typed language such as Python. However, this feature reduces a lot of lines of code which
+        are otherwise required to declare local variables using the Java language.
+      </p>
+
+      <h2>Data Types in Java</h2>
+      <p>
+        boolean data type,byte data type,char data type,short data type,int data type,long data type,float data type,double data type.
+        <p />
+
+      <h2> Operators in Java</h2>
+      <p>
+        Operator in Java is a symbol that is used to perform operations. For example: +, -, , / etc.
+        There are many types of operators in Java which are given below:Unary Operator,Arithmetic Operator,Shift Operator,Relational Operator,
+        Bitwise Operator,Logical Operator,Ternary Operator andAssignment Operator.
+        <p />
+
+      <h2>Java Keywords</h2>
+      <p>
+        Java keywords are also known as reserved words. Keywords are particular words that act as a key to a code. These are predefined
+        words by Java so they cannot be used as a variable or object name or class name.
+      </p>
+
+      <h2>List of Java Keywords</h2>
+      <ol>
+        <li>
+          <strong>abstract:</strong> Java abstract keyword is used to declare an abstract class. An abstract class can provide the implementation of the interface. It can have abstract
+          and non-abstract methods.
+        </li>
+        <li>
+          <strong>case:</strong> Java case keyword is used with the switch statements to mark blocks of text.
+        </li>
+        <li>
+          <strong>extends:</strong> Java extends keyword is used to indicate that a class is derived from another class or interface.
+        </li>
+        <li>
+          <strong>import:</strong> Java import keyword makes classes and interfaces available and accessible to the current source code.
+        </li>
+        <li>
+          <strong>int:</strong> Java int keyword is used to declare a variable that can hold a 32-bit signed integer.
+        </li>
+        <li>
+          <strong>package:</strong> Java package keyword is used to declare a Java package that includes the classes.
+        </li>
+        <li>
+          <strong>private:</strong> Java private keyword is an access modifier. It is used to indicate that a method or variable may be accessed only in the class in which it is declared.
+        </li>
+        <li>
+          <strong>protected:</strong> Java protected keyword is an access modifier. It can be accessible within the package and outside the package but through inheritance only. It can't
+          be applied with the class.
+        </li>
+        <li>
+          <strong>public:</strong> Java public keyword is an access modifier. It is used to indicate that an item is accessible anywhere. It has the widest scope among all other modifiers.
+        </li>
+      </ol>
+
+      <h2> Abstract class in Java</h2>
+      <p>
+        A class which is declared with the abstract keyword is known as an abstract class in Java. It can have abstract and non-abstract methods (method with the body).
+        Before learning the Java abstract class, let's understand the abstraction in Java first.
+      </p>
+
+      <h2>Java Arrays</h2>
+      <p>
+        Java array is an object which contains elements of a similar data type. Additionally, The elements of an array are stored in a contiguous memory location. It is a data structure where we store similar elements. We can store only a fixed set
+        of elements in a Java array.
+      </p>
+
+      <h2>Java String</h2>
+      <p>
+        In Java, string is basically an object that represents sequence of char values. An array of characters works same as Java string. </p>
+      <p> For example:
+        char[] ch={'j','a','v','a'};
+        String s=new String(ch);
+      </p>
+
+      <h2> Java function</h2>
+      <p>
+        A method is a block of code which only runs when it is called.
+        You can pass data, known as parameters, into a method.
+        Methods are used to perform certain actions, and they are also known as functions.
+        example-
+      <pre>
+          <code>
+            public class Main {
+            public static void foo() {
+            exammple ta lek suummannnn
+              }
+            }
+          </code>
+        </pre>
+
+      </p>
 
 
-    <!-- -----------footer section------------ -->
+      <h2>Time-Based Released Versioning</h2>
+      <p>
+        Java has scheduled a new release every six months since JDK 10 release. This approach has received a mix of both
+        positive and negative reviews from the Java community. The update element also increments 1 month after a Feature element.
+        This means that the April 2018 java release is JDK 10.0.1, whereas July 2018 release is JDK 10.0.2 so on and so forth.
+      </p>
+
+      <h2>Garbage-Collector Interface </h2>
+      <p>
+        Garbage Collector interface is another useful and interesting Java 10 feature. It gives a clean garbage collector interface
+        which means that you can now exclude GC from a JDK build. This makes it easy to add a new GC without working on the code base.
+        Read about Java Memory Management to understand how G1 Garbage Collection works and learn the difference between G1 and Concurrent
+        Mark Sweep Garbage Collector.
+      </p>
+
+      <h2>Heap Allocation on Alternative Memory Devices</h2>
+      <p>
+        Heap Allocation on Alternative Memory Devices is another great Java 10 feature. It helps to enable HotSpot VM to allocate Java
+        object heap on an alternative memory device indicated by the user. This feature also makes it possible to allocate lower priority
+        procedures for using the NV-DIMM memory while assisting the higher priority procedures to the DRAM in a multi-JVM environment.
+      </p>
+
+      <h2>Root Certificates</h2>
+      <p>
+        Root Certificates is another significant change featured in Java 10. JDK 10 was built in connection with OpenJDK and that’s prominent
+        from this feature, as it offers a default set of root Certification Authority. It also focuses on reducing the difference between OpenJDK
+        and Oracle JDK. Security components such as TLS are default enabled in OpenJDK builds.
+      </p>
+
+      <h2>Application class-data sharing</h2>
+      <p>
+        Class-Data Sharing time was introduced in Java 5 to improve startup times of small java applications. It helped in loading the class metadata
+        so as not to load all of it each time. This shared data cache signified a big improvement in startup times for small applications as the relative
+        core class size was mostly larger in size than the application. In Java 10, this feature is further extended to include the system classloader and
+        the platform classloader. To benefit from that, simply add -XX:+UseAppCDS as a parameter.
+      </p>
+
+      <h2>Thread-Local Handshakes</h2>
+      <p>
+        Thread-Local Handshakes in Java 10 offers an improved VM performance. It enables callback on application threads without the execution of a global
+        VM savepoint. This means that the JVM can now also stop individual threads instead of collective threads whenever required. Small improvements are also done as part of this feature to enhance VM performance. Various memory barriers are
+        removed from JVM with an improved biased
+        locking to stop individual threads for revoking biases.
+      </p>
+
+      <p>
+        <strong>FOR MORE INFORMATION "C" LANGUAGE GO TO THE VIDEO SECTION AND WATCH ANY VIDEO</strong>
+      </p>
+
+    </section>
+
+
+    <!-- -----------footer section------------>
 
     <section class="footer">
 
@@ -183,7 +292,7 @@ String s=new String(ch);<br><br></p>
   </div>
 
 
-  <!-- ----- custom js file link----- -->
+  <!-- ----- custom js file link----->
 
   <script src="../js/main.js"></script>
 
