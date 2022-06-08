@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Articals</title>
+
+  <!-- -----font awesome cdn link----- -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <!--*************************Google Font Link ************************************* -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+  <!--*************************Google Font Link ************************************* -->
+  <!-- ----link css file----- -->
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/article.css">
+</head>
+
+<body>
+
+  <div class="container">
+
+    <!-- ---------header-------- -->
+
+    <header>
+      <a href="../home_page.html" class="logo">Virtual-<span>Learning</span></a>
+      <div id="menu" class="fas fa-bars"></div>
+
+      <nav class="navbar">
+        <a href="../home_page.html">Home</a>
+        <a href="../onlineide/onlineide.html">Online IDE</a>
+        <a href="../our_videos/our_videos.html">Our Videos</a>
+        <a href="../articles/article.html">Articles</a>
+        <a href="../app_dev/app_dev.html">App-dev</a>
+        <a href="../web_dev/web_dev.html">Web-dev</a>
+        <a href="../courses.html">Courses</a>
+        <a href="../about.html">About</a>
+        <a href="../index.html" class="btn1">Log Out</a>
+
+      </nav>
+    </header>
+
+    <section class="text">
+      <h1>Angular ARTICLE</h1>
+      <h2>History of Angular</h2>
+      <div class="content">
+        <div class="iamge-title">
+          <figure>
+            <img src="../images/Misko-Hevery.jpg" alt="Angular image">
+            <figcaption>Miško Hevery</figcaption>
+          </figure>
+        </div>
+        <div class="pragraph">
+          <p>
+            Prior to its release, a Google employee by the name of <strong>Miško Hevery</strong>, was developing a side project.
+            This side project was to help make building web applications easier for a couple internal projects
+            he was working on. This side project later became known as <strong>AngularJS</strong> (Angular because of the < > in HTML).
+            Angular is used as the frontend of the <strong>MEAN</strong> stack, consisting of <strong>MongoDB</strong> database, <strong>Express.js</strong> web application server
+            framework, Angular itself (or <strong>AngularJS</strong>), and <strong>Node.js</strong> server runtime environment.
+          </p>
+        </div>
+      </div>
+
+      <h2>Angular Introduction</h2>
+      <h3>What is Angular?</h3>
+      <ul>
+        <li>Angular is a platform and framework for building single-page client applications using HTML and TypeScript.
+          Angular is written in TypeScript. It implements core and optional functionality as a set of TypeScript libraries
+          that you import into your applications.</li>
+        <li>An application always has at least a root module that enables bootstrapping, and typically has many more feature modules.</li>
+        <li>Components define views, which are sets of screen elements that Angular can choose among and modify according to your program logic and data</li>
+        <li>Components use services, which provide specific functionality not directly related to views. Service providers can be injected into components as
+            dependencies, making your code modular, reusable, and efficient.</li>
+      </ul>
+      <h2>Angular Template Syntax</h2>
+      <ul>
+        <li>Binds property <strong>value</strong> to the result of expression <strong>firstName</strong>.</li>
+      </ul>
+      <pre>
+        <code>
+            <span class="css-tag"> &lt input</span> <span>[</span>value<span>]</span>=<span class="html-tag">"firstName"</span> <span class="css-tag">></span>
+        </code>
+      </pre>
+      <ul>
+        <li>Binds attribute <strong> role</strong> to the result of expression <strong>myAriaRole</strong>.</li>
+      </ul>
+      <pre>
+        <code>
+          <span class="css-tag">&lt div </span><span>[</span>attr.role <span>]</span>=<span class="html-tag">"myAriaRole"</span><span class="css-tag">></span>
+        </code>
+      </pre>
+      <ul>
+        <li>Binds the presence of the CSS class <strong>extra-sparkle</strong> on the element to the truthiness of the expression <strong>isDelightful</strong>.</li>
+      </ul>
+      <pre>
+        <code>
+          <span class="css-tag">&lt div </span><span>[</span>class.extra-sparkle<span>]</span>=<span class="html-tag">"isDelightful"</span><span>></span>
+        </code>
+      </pre>
+      <ul>
+        <li>Binds style property <strong>width</strong> to the result of expression <strong>mySize</strong> in pixels. Units are optional.</li>
+      </ul>
+      <pre>
+        <code>
+          <span class="css-tag">&lt div </span><span>[</span>style.width.px<span>]</span>=<span class="html-tag">"mySize"</span><span class="css-tag">></span>
+        </code>
+      </pre>
+      <h2>Defining Template Reference variable</h2>
+      <ul>
+        <li>We declare Template reference variables using <strong>#</strong> followed by the name of the variable ( <strong>#variable</strong>).
+           We can also declare them using <strong>#variable="customer"</strong> when the component/directive defines a customer
+           as the <strong>exportAs</strong> Property.</li>
+        <li>For Example</li>
+      </ul>
+      <h3>HTML Element</h3>
+      <pre>
+        <code>
+             <span class="css-tag">&lt input</span> type=<span class="class-tag">"text"</span> <span class="html-tag">#firstName</span><span class="css-tag">></span>
+        </code>
+      </pre>
+      <h3>Component/Directive</h3>
+      <pre>
+        <code>
+          <span class="css-tag">&lt </span>app-customer <span class="class-tag">#customerList=”customer”></span><span class="class-tag">&lt/app-customer></span>
+        </code>
+      </pre>
+
+    </section>
+
+
+
+    <!-- -----------footer section------------ -->
+
+    <section class="footer">
+
+      <div class="box-container">
+
+        <div class="box">
+          <h3>about</h3>
+          <p>This is a platform where students can learn web development, app development & different programming languages through video tutorials.
+            And student can also run their program using our website through Online IDE.This is free learning website.</p>
+        </div>
+
+        <div class="box">
+          <h3>contact us</h3>
+          <p><i class="fas fa-phone"></i> 843-652-8938 | 973-474-7448 </p>
+          <p><i class="fas fa-envelope"></i> souravbuie17@gmail.com</p>
+          <p><i class="fas fa-map-marker-alt"></i> Subhankarnagar , Pohabagan , Bankura - 722146 , West Bengal , INDIA.</p>
+        </div>
+
+      </div>
+
+      <div class="credit">created with <i class="fas fa-heart"></i> by final year <span>F</span> group</div>
+    </section>
+
+  </div>
+
+
+  <!-- ----- custom js file link----- -->
+
+  <script src="../js/main.js"></script>
+
+</body>
+
+</html>

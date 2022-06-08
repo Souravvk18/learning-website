@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Articals</title>
+
+  <!-- -----font awesome cdn link----- -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <!--*************************Google Font Link ************************************* -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+  <!--*************************Google Font Link ************************************* -->
+  <!-- ----link css file----- -->
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/article.css">
+</head>
+
+<body>
+
+  <div class="container">
+
+    <!-- ---------header-------- -->
+
+    <header>
+      <a href="../home_page.html" class="logo">Virtual-<span>Learning</span></a>
+      <div id="menu" class="fas fa-bars"></div>
+
+      <nav class="navbar">
+        <a href="../home_page.html">Home</a>
+        <a href="../onlineide/onlineide.html">Online IDE</a>
+        <a href="../our_videos/our_videos.html">Our Videos</a>
+        <a href="../articles/article.html">Articles</a>
+        <a href="../app_dev/app_dev.html">App-dev</a>
+        <a href="../web_dev/web_dev.html">Web-dev</a>
+        <a href="../courses.html">Courses</a>
+        <a href="../about.html">About</a>
+        <a href="../index.html" class="btn1">Log Out</a>
+
+      </nav>
+    </header>
+
+    <section class="text">
+      <h1>Nodejs ARTICLE</h1>
+      <h2>History of Nodejs</h2>
+      <div class="content">
+        <div class="iamge-title">
+          <figure>
+            <img src="../images/ryan dahl.jpg" alt="Nodejs image">
+            <figcaption>Ryan Dahl</figcaption>
+          </figure>
+        </div>
+        <div class="pragraph">
+          <p>
+            The open source project <strong>Node. js</strong> was invented by Joyent software engineer <strong>Ryan Dahl</strong> three years ago next month. It essentially
+            allows <strong>JavaScript</strong> to be used outside of a browser.Node leverages Google's V8 JavaScript virtual machine to interpret JavaScript, and it uses an
+            event-driven non-blocking I/O model that cloud services vendor Joyent -- a principal Node advocate -- says makes it ideal for data-intensive and
+            real-time applications running across distributed devices. It is also championed by companies such as Microsoft and Mozilla.
+          </p>
+        </div>
+      </div>
+
+      <h2>Nodejs Introduction</h2>
+      <h3>What is Nodejs?</h3>
+      <ul>
+        <li>Node.js is an open source, cross-platform runtime environment for developing server-side and networking applications. Node.js applications are written in JavaScript,
+          and can be run within the Node.js runtime on OS X, Microsoft Windows, and Linux.</li>
+      </ul>
+      <h3>Example</h3>
+      <pre>
+        <code class="output">
+          Node.js = Runtime Environment + JavaScript Library
+        </code>
+      </pre>
+      <h2>Features of Node.js</h2>
+      <ul>
+        <li><strong>Single Threaded but Highly Scalable-</strong>Node.js uses a single threaded model with event looping. Event mechanism helps the server to respond in a non-blocking way
+          and makes the server highly scalable as opposed to traditional servers which create limited threads to handle requests.</li>
+          <li><strong>Very Fast -</strong>Being built on Google Chrome's V8 JavaScript Engine, Node.js library is very fast in code execution.</li>
+          <li><strong>No Buffering -</strong>Node.js applications never buffer any data. These applications simply output the data in chunks.</li>
+      </ul>
+      <h3>Nodejs Example</h3>
+      <ul>
+        <li>Nodejs tool makes it easy to learn Node.js</li>
+      </ul>
+      <pre>
+        <code>
+          <var>var</var> http = require<span>(</span>'<span class="class-tag">http</span>'<span>)</span>;
+
+          http.createServer<span>(</span><span class="css-tag">function</span> (req, res) <span>{</span>
+          res.writeHead<span>(</span><span class="object-tag">200</span>,<span> {</span><span class="class-tag">'Content-Type': 'text/plain'</span><span>})</span>;
+          res.end<span>(</span>'<span class="class-tag">Hello World!</span>'<span>)</span>;
+          <span>})</span>.listen<span>(</span><span class="object-tag">8080</span><span>)</span>;
+        </code>
+      </pre>
+      <pre>
+        <code class="output">
+           Hello World!
+        </code>
+      </pre>
+      <h3>Object Literal</h3>
+      <ul>
+        <li>Object literal syntax is same as browser's JavaScript.</li>
+      </ul>
+      <pre>
+        <code>
+          <var>var</var> obj = <span>{</span>
+          authorName: <span class="class-tag">'Ryan Dahl'</span>,
+          language: <span class="class-tag">'Node.js'</span>
+          <span>}</span>
+        </code>
+      </pre>
+      <h2>Functions</h2>
+      <ul>
+        <li>Functions are first class citizens in Node's JavaScript, similar to the browser's JavaScript.
+          A function can have attributes and properties also. It can be treated like a class in JavaScript.</li>
+      </ul>
+      <h3>Example</h3>
+      <pre>
+        <code>
+          <span class="css-tag">function</span> Display(x) <span>{</span><span></span>
+          <span class="css-tag">console.log</span><span>(</span><span></span>x<span>)</span>;
+          <span>}</span>
+
+          Display <span>(</span><span class="object-tag">100</span><span>)</span>;
+        </code>
+      </pre>
+
+    </section>
+
+
+
+    <!-- -----------footer section------------ -->
+
+    <section class="footer">
+
+      <div class="box-container">
+
+        <div class="box">
+          <h3>about</h3>
+          <p>This is a platform where students can learn web development, app development & different programming languages through video tutorials.
+            And student can also run their program using our website through Online IDE.This is free learning website.</p>
+        </div>
+
+        <div class="box">
+          <h3>contact us</h3>
+          <p><i class="fas fa-phone"></i> 843-652-8938 | 973-474-7448 </p>
+          <p><i class="fas fa-envelope"></i> souravbuie17@gmail.com</p>
+          <p><i class="fas fa-map-marker-alt"></i> Subhankarnagar , Pohabagan , Bankura - 722146 , West Bengal , INDIA.</p>
+        </div>
+
+      </div>
+
+      <div class="credit">created with <i class="fas fa-heart"></i> by final year <span>F</span> group</div>
+    </section>
+
+  </div>
+
+
+  <!-- ----- custom js file link----- -->
+
+  <script src="../js/main.js"></script>
+
+</body>
+
+</html>

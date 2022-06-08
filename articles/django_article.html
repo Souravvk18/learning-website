@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Articals</title>
+
+  <!-- -----font awesome cdn link----- -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <!--*************************Google Font Link ************************************* -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+  <!--*************************Google Font Link ************************************* -->
+  <!-- ----link css file----- -->
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/article.css">
+</head>
+
+<body>
+
+  <div class="container">
+
+    <!-- ---------header-------- -->
+
+    <header>
+      <a href="../home_page.html" class="logo">Virtual-<span>Learning</span></a>
+      <div id="menu" class="fas fa-bars"></div>
+
+      <nav class="navbar">
+        <a href="../home_page.html">Home</a>
+        <a href="../onlineide/onlineide.html">Online IDE</a>
+        <a href="../our_videos/our_videos.html">Our Videos</a>
+        <a href="../articles/article.html">Articles</a>
+        <a href="../app_dev/app_dev.html">App-dev</a>
+        <a href="../web_dev/web_dev.html">Web-dev</a>
+        <a href="../courses.html">Courses</a>
+        <a href="../about.html">About</a>
+        <a href="../index.html" class="btn1">Log Out</a>
+
+      </nav>
+    </header>
+
+    <section class="text">
+      <h1>Django ARTICLE</h1>
+      <h2>History of Django</h2>
+      <div class="content">
+        <div class="iamge-title">
+          <figure>
+            <img src="../images/Django.png" alt="Django image">
+            <figcaption>Designed by: Adrian Holovaty and Simon Willison</figcaption>
+          </figure>
+        </div>
+        <div class="pragraph">
+          <p>
+            Django was created in 2003 by Python programmers <strong>Adrian Holovaty and Simon Willison</strong> when they were working at the Lawrence Journal-World newspaper.
+            Python is one of the most popular programming languages today, and Django is a tool used by Python developers to facilitate the web development process. Read on to
+            learn how Django helps developers create bespoke and fully customisable websites for clients.
+          </p>
+        </div>
+      </div>
+
+      <h2>Django Introduction</h2>
+      <h3>What is Django?</h3>
+      <ul>
+        <li>Django is a free, open source framework for Python web development and is a very flexible web development tool that can be used to create just
+          about any type of website or app that is needed. A framework is a collection of modules that provides pre-built elements that make coding more
+          efficient and stable.</li>
+        <li>As an example – a developer shouldn't build login screens and login processing themselves. There's too many places for it to go wrong.</li>
+      </ul>
+      <h2>Templates</h2>
+      <ul>
+        <li>A template contains variables, which get replaced with values when the template is evaluated, and tags, which control the logic of the template.</li>
+        <li>Below is a minimal template that illustrates a few basics. Each element will be explained later in this document.</li>
+      </ul>
+      <pre>
+        <code>
+          <span>{</span>% <span class="html-tag">extends</span> <span class="class-tag">"base_generic.html"</span> %<span>}</span>
+
+          <span>{</span>% <span class="html-tag">block</span> <span class="class-tag">title</span> %<span>}</span><span>{{</span> <span class="class-tag">section.title</span> <span>}}</span><span>{</span>% <span class="html-tag">endblock</span> %<span>}</span>
+
+          <span>{</span>% <span class="class-tag"><span class="html-tag">block</span> content</span> %<span>}</span>
+          <span class="css-tag">&lth1></span><span>{{</span> <span class="class-tag">section.title</span> <span>}}</span><span class="css-tag">&lt/h1></span>
+
+          <span>{</span>% <span class="class-tag"><span class="html-tag">for</span> story <span class="html-tag">in</span> story_list</span> %<span>}</span>
+          <span class="css-tag">&lth2></span>
+          <span class="css-tag">&lta</span> <samp class="css-value">href="<span>{{</span> story.get_absolute_url <span>}}</span>"</samp><span class="css-tag">></span>
+          <span>{{</span> <span class="class-tag">story.headline|</span><span class="object-tag">upper</span> <span>}}</span>
+          <span class="css-tag">&lt/a></span>
+          <span class="css-tag">&lt/h2></span>
+          <span class="css-tag">&ltp></span><span>{{</span> <span class="class-tag">story.tease|</span><span class="object-tag">truncatewords</span><span class="class-tag">:"100"</span> <span>}}</span><span class="css-tag">&lt/p></span>
+          <span>{</span>% <span class="html-tag">endfor</span> %<span>}</span>
+          <span>{</span>% <span class="html-tag">endblock</span> %<span>}</span>
+        </code>
+      </pre>
+      <h2>Variables</h2>
+      <ul>
+        <li>A variable outputs a value from the context, which is a dict-like object mapping keys to values.
+        Variables are surrounded by <strong>{{</strong> and <strong>}}</strong> like this:</li>
+      </ul>
+      <pre>
+        <code>
+          My first name is <span>{{</span> <span class="class-tag">first_name</span> <span>}}</span>. My last name is <span>{{</span> <span class="class-tag">last_name</span> <span>}}</span>.
+        </code>
+      </pre>
+      <ul>
+        <li>With a context of <strong>{'first_name': 'John', 'last_name': 'Doe'}</strong>, this template renders to:</li>
+      </ul>
+      <pre>
+        <code class="output">
+          My first name is John. My last name is Doe.
+        </code>
+      </pre>
+      <h3>Tags</h3>
+      <ul>
+        <li>Tags are surrounded by <strong>{</strong>% and %<strong>}</strong> like this:</li>
+      </ul>
+      <pre>
+        <code>
+          <span>{</span>% <span class="html-tag">csrf_token</span> %<span>}</span>
+        </code>
+      </pre>
+      <ul>
+        <li>Most tags accept arguments:</li>
+      </ul>
+      <pre>
+        <code>
+          <span>{</span>% <span class="html-tag">cycle</span> <span class="object-tag">'odd' 'even'</span> %<span>}</span>
+        </code>
+      </pre>
+      <ul>
+        <li>Some tags require beginning and ending tags:</li>
+      </ul>
+      <pre>
+        <code>
+          <span>{</span>% <span class="html-tag">if</span> <span class="class-tag">user.is_authenticated</span> %<span>}</span><span class="class-tag">Hello</span>, <span>{{</span> <span class="class-tag">user.username</span> <span>}}</span>.<span>{</span>% <span class="html-tag">endif</span> %<span>}</span>
+        </code>
+      </pre>
+
+    </section>
+
+
+
+    <!-- -----------footer section------------ -->
+
+    <section class="footer">
+
+      <div class="box-container">
+
+        <div class="box">
+          <h3>about</h3>
+          <p>This is a platform where students can learn web development, app development & different programming languages through video tutorials.
+            And student can also run their program using our website through Online IDE.This is free learning website.</p>
+        </div>
+
+        <div class="box">
+          <h3>contact us</h3>
+          <p><i class="fas fa-phone"></i> 843-652-8938 | 973-474-7448 </p>
+          <p><i class="fas fa-envelope"></i> souravbuie17@gmail.com</p>
+          <p><i class="fas fa-map-marker-alt"></i> Subhankarnagar , Pohabagan , Bankura - 722146 , West Bengal , INDIA.</p>
+        </div>
+
+      </div>
+
+      <div class="credit">created with <i class="fas fa-heart"></i> by final year <span>F</span> group</div>
+    </section>
+
+  </div>
+
+
+  <!-- ----- custom js file link----- -->
+
+  <script src="../js/main.js"></script>
+
+</body>
+
+</html>

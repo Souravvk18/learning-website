@@ -28,7 +28,7 @@ $password = $_POST['password'];
       if($data['email']===$email)
       {
         echo "<script>
-          alert('Alerady use this Email ID')
+          alert('Already use this Email ID')
         </script>";
         echo "<script>location.href='register_page.html'</script>";
         $stmt->close();
