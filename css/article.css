@@ -19,7 +19,7 @@ figcaption {
   font-weight: bold;
   padding-top: 12px;
   /* padding-left: 24px; */
-  font-size: 24px;
+  font-size: 2px;
   font-weight: bold;
 }
 strong {
@@ -28,6 +28,7 @@ strong {
 
 li {
   font-size: 16px;
+  line-height: 26px;
   margin: 16px;
   margin-left: 48px;
   font-weight: 400;
@@ -128,6 +129,7 @@ pre code {
   display: inline-block;
   padding: 24px;
   margin-bottom: 32px;
+  text-transform: none;
 }
 
 /* CODE EDITER COLOR CODE */
@@ -211,6 +213,7 @@ span {
     font-size: 16px;
     font-weight: 400;
     word-spacing: 4px;
+    text-transform: none;
     /* letter-spacing: 2px; */
     /* list-style-type: square; */
   }
