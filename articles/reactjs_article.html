@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Articals</title>
+
+  <!-- -----font awesome cdn link----- -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <!--*************************Google Font Link ************************************* -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+  <!--*************************Google Font Link ************************************* -->
+  <!-- ----link css file----- -->
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/article.css">
+</head>
+
+<body>
+
+  <div class="container">
+
+    <!-- ---------header-------- -->
+
+    <header>
+      <a href="../home_page.html" class="logo">Virtual-<span>Learning</span></a>
+      <div id="menu" class="fas fa-bars"></div>
+
+      <nav class="navbar">
+        <a href="../home_page.html">Home</a>
+        <a href="../onlineide/onlineide.html">Online IDE</a>
+        <a href="../our_videos/our_videos.html">Our Videos</a>
+        <a href="../articles/article.html">Articles</a>
+        <a href="../app_dev/app_dev.html">App-dev</a>
+        <a href="../web_dev/web_dev.html">Web-dev</a>
+        <a href="../courses.html">Courses</a>
+        <a href="../about.html">About</a>
+        <a href="../index.html" class="btn1">Log Out</a>
+
+      </nav>
+    </header>
+
+    <section class="text">
+      <h1>Reactjs ARTICLE</h1>
+      <h2>History of Reactjs</h2>
+      <div class="content">
+        <div class="iamge-title">
+          <figure>
+            <img src="../images/Jordan Walke.jpg" alt="Reactjs image">
+            <figcaption>Jordan Walke</figcaption>
+          </figure>
+        </div>
+        <div class="pragraph">
+          <p>
+            React is a free and open-source front-end JavaScript library for building user interfaces based on UI components. It is maintained by Meta and a community of individual developers and companies.
+            It is developed by <strong>Jordan Walke</strong>. ReactJS is a <strong>declarative, efficient,</strong> and flexible <strong>JavaScript library</strong> for building reusable UI components.
+          </p>
+        </div>
+      </div>
+
+      <h2>ReactJS Introduction</h2>
+      <h3>What is ReactJS?</h3>
+      <ul>
+        <li>React, sometimes referred to as a frontend JavaScript framework, is a JavaScript library created by Facebook.
+            React is a tool for building UI components.</li>
+      </ul>
+      <h2>React Features</h2>
+      <ul>
+        <li><strong>Components</strong> − React is all about components. You need to think of everything as a component. This will help you maintain the code when working on larger scale projects.</li>
+        <li><strong>JSX</strong> − JSX is JavaScript syntax extension. It isn't necessary to use JSX in React development, but it is recommended.</li>
+        <li><strong>License</strong> − React is licensed under the Facebook Inc. Documentation is licensed under CC BY 4.0.</li>
+      </ul>
+      <h2>Advantages of ReactJS</h2>
+      <ul>
+        <li>Uses virtual DOM which is a JavaScript object. This will improve apps performance, since JavaScript virtual DOM is faster than the regular DOM.</li>
+        <li>Can be used on client and server side as well as with other frameworks.</li>
+        <li>Component and data patterns improve readability, which helps to maintain larger apps.</li>
+      </ul>
+      <h2>Embedding Expressions in JSX</h2>
+      <ul>
+        <li>In the example below, we declare a variable called <strong>name</strong> and then use it inside JSX by wrapping it in curly braces:</li>
+      </ul>
+      <pre>
+        <code>
+          <span class="css-tag">const</span> name = <span class="html-tag">'Josh Perez'</span>;
+          <span class="css-tag">const</span> element = &lt<span class="object-tag">h1</span>>Hello, <span>{</span>name<span>}</span> &lt/<span class="object-tag">h1</span>>;
+        </code>
+      </pre>
+      <ul>
+        <li>In the example below, we embed the result of calling a JavaScript function, formatName(user), into an &lt<span class="object-tag">h1</span>> element.</li>
+      </ul>
+      <pre>
+        <code>
+          <var>function</var> <span class="css-tag">formatName</span><span>(</span>user<span>)</span><span>{</span>
+          <var>return</var> user.firstName + <span class="html-tag">' '</span> + user.lastName;
+          <span>}</span>
+
+          <var>const</var> user = <span>{</span>
+          <span class="css-tag">firstName</span>: <span class="html-tag">'Harper'</span>,
+          <span class="css-tag">lastName</span>: <span class="html-tag">'Perez'</span>
+          <span>}</span>;
+
+          <var>const</var> element = <span>(</span>
+          &lt<span class="object-tag">h1</span>>
+          Hello, <span>{</span><span class="css-tag">formatName</span><span>(</span>user<span>)</span><span>}</span>!
+          &lt/<span class="object-tag">h1</span>>
+          <span>)</span>;
+        </code>
+      </pre>
+    </section>
+
+
+
+    <!-- -----------footer section------------ -->
+
+    <section class="footer">
+
+      <div class="box-container">
+
+        <div class="box">
+          <h3>about</h3>
+          <p>This is a platform where students can learn web development, app development & different programming languages through video tutorials.
+            And student can also run their program using our website through Online IDE.This is free learning website.</p>
+        </div>
+
+        <div class="box">
+          <h3>contact us</h3>
+          <p><i class="fas fa-phone"></i> 843-652-8938 | 973-474-7448 </p>
+          <p><i class="fas fa-envelope"></i> souravbuie17@gmail.com</p>
+          <p><i class="fas fa-map-marker-alt"></i> Subhankarnagar , Pohabagan , Bankura - 722146 , West Bengal , INDIA.</p>
+        </div>
+
+      </div>
+
+      <div class="credit">created with <i class="fas fa-heart"></i> by final year <span>F</span> group</div>
+    </section>
+
+  </div>
+
+
+  <!-- ----- custom js file link----- -->
+
+  <script src="../js/main.js"></script>
+
+</body>
+
+</html>
