@@ -14,16 +14,17 @@
       $stmt->bind_param("s",$email);
       $stmt->execute();
       $stmt_result = $stmt->get_result();
-      if ($stmt_result->num_rows > 0) {
+      if ($stmt_result->num_rows > 0)
+      {
         $data = $stmt_result-> fetch_assoc();
         if($data['password']===$password)
         {
           echo "<script>location.href='home_page.html'</script>";
         }
-        else 
+        else
         {
           echo "<script>
-          alert('Invalid Email or Password')
+          alert('Invalid Password')
           </script>";
           echo "<script>location.href='login_page.html'</script>";
         }
@@ -31,7 +32,7 @@
       else
       {
         echo "<script>
-        alert('Invalid Email or Password')
+        alert('Invalid Email ID')
         </script>";
         echo "<script>location.href='login_page.html'</script>";
       }
