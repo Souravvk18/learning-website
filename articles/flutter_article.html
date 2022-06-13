@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Articals</title>
+
+  <!-- -----font awesome cdn link----- -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <!--*************************Google Font Link ************************************* -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+  <!--*************************Google Font Link ************************************* -->
+  <!-- ----link css file----- -->
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/article.css">
+</head>
+
+<body>
+
+  <div class="container">
+
+    <!-- ---------header-------- -->
+
+    <header>
+      <a href="../home_page.html" class="logo">Virtual-<span>Learning</span></a>
+      <div id="menu" class="fas fa-bars"></div>
+
+      <nav class="navbar">
+        <a href="../home_page.html">Home</a>
+        <a href="../onlineide/onlineide.html">Online IDE</a>
+        <a href="../our_videos/our_videos.html">Our Videos</a>
+        <a href="../articles/article.html">Articles</a>
+        <a href="../app_dev/app_dev.html">App-dev</a>
+        <a href="../web_dev/web_dev.html">Web-dev</a>
+        <a href="../courses.html">Courses</a>
+        <a href="../about.html">About</a>
+        <a href="../index.html" class="btn1">Log Out</a>
+
+      </nav>
+    </header>
+
+    <section class="text">
+      <h1>Flutter ARTICLE</h1>
+      <h2>History of Flutter</h2>
+      <div class="content">
+        <div class="iamge-title">
+          <figure>
+            <img src="../images/flutter-logo.png" alt="flutter image">
+            <figcaption>Designed by:Google</figcaption>
+          </figure>
+        </div>
+        <div class="pragraph">
+          <p>
+            Flutter is an open-source UI software development kit created by <strong>Google</strong>. It is used to develop
+            cross platform applications for Android, iOS, Linux, macOS, Windows, Google Fuchsia, and the web from a single codebase.
+            First described in 2015, Flutter was released in May 2017.
+          </p>
+        </div>
+      </div>
+
+      <h2>Flutter Introduction</h2>
+      <h3>What is Flutter?</h3>
+      <ul>
+        <li>Flutter is Google’s portable UI toolkit for crafting beautiful, natively compiled applications for mobile, web, and desktop
+          from a single codebase. Flutter works with existing code, is used by developers and organizations around the world, and is free and open source.</li>
+      </ul>
+      <h2>What kinds of apps can I build with Flutter?</h2>
+      <ul>
+        <li>Flutter is designed to support mobile apps that run on both Android and iOS, as well as interactive apps that you want to run on your web pages or on the desktop. </li>
+        <li>Apps that need to deliver highly branded designs are particularly well suited for Flutter. However, you can also create pixel-perfect experiences that match the Android
+          and iOS design languages with Flutter.</li>
+      </ul>
+      <h3>Navigation and routing</h3>
+      <ul>
+        <li>Flutter has an imperative routing mechanism, the Navigator widget, and a more idiomatic declarative routing mechanism (which is similar to build methods as used with widgets), the Router widget.</li>
+        <li>The two systems can be used together (indeed, the declarative system is built using the imperative system).</li>
+        <li>Typically, small applications are served well by just using the Navigator API, via the MaterialApp constructor’s MaterialApp.routes property.</li>
+      </ul>
+      <h3>Deep linking</h3>
+       <ul>
+         <li>Flutter supports deep linking on iOS, Android, and web browsers. Opening a URL displays that screen in your app. With the following steps, you can launch and display routes by using named routes, or by using the Router widget.</li>
+       </ul>
+       <h2>Flutter - Writing Android Specific Code</h2>
+       <ul>
+         <li>Let us write a simple application to open a browser using Android SDK and understand how</li>
+       </ul>
+       <pre>
+         <code>
+           import 'package:flutter/material.dart';
+           void main() => runApp(MyApp());
+           class MyApp extends StatelessWidget {
+           @override
+           Widget build(BuildContext context) {
+           return MaterialApp(
+           title: 'Flutter Demo',
+           theme: ThemeData(
+            primarySwatch: Colors.blue,
+           ),
+            home: MyHomePage(title: 'Flutter Demo Home Page'),
+          );
+          }
+          }
+         class MyHomePage extends StatelessWidget {
+         MyHomePage({Key key, this.title}) : super(key: key);
+         final String title;
+
+         @override
+         Widget build(BuildContext context) {
+         return Scaffold(
+         appBar: AppBar(
+            title: Text(this.title),
+          ),
+           body: Center(
+            child: RaisedButton(
+               child: Text('Open Browser'),
+               onPressed: null,
+            ),
+           ),
+         );
+        }
+        }
+         </code>
+       </pre>
+
+
+    </section>
+
+
+
+    <!-- -----------footer section------------ -->
+
+    <section class="footer">
+
+      <div class="box-container">
+
+        <div class="box">
+          <h3>about</h3>
+          <p>This is a platform where students can learn web development, app development & different programming languages through video tutorials.
+            And student can also run their program using our website through Online IDE.This is free learning website.</p>
+        </div>
+
+        <div class="box">
+          <h3>contact us</h3>
+          <p><i class="fas fa-phone"></i> 843-652-8938 | 973-474-7448 </p>
+          <p><i class="fas fa-envelope"></i> souravbuie17@gmail.com</p>
+          <p><i class="fas fa-map-marker-alt"></i> Subhankarnagar , Pohabagan , Bankura - 722146 , West Bengal , INDIA.</p>
+        </div>
+
+      </div>
+
+      <div class="credit">created with <i class="fas fa-heart"></i> by final year <span>F</span> group</div>
+    </section>
+
+  </div>
+
+
+  <!-- ----- custom js file link----- -->
+
+  <script src="../js/main.js"></script>
+
+</body>
+
+</html>
